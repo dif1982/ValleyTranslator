@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Valley.ico"/>
+    <title>Tradutor do jogo Valley</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <input type="file" id="fileInput" accept=".xml" />
+        <h2>Tradução</h2>
+        <h3>Instruções</h3>
+        <div>As tags em azul que estiverem desta forma <span class="blue">&lt;until 4.818&gt;</span> Não devem ser traduzidas e nem removidas de forma alguma. Mantenha a formatação dos textos exatamente como está.<br/>
+            Os 4 primeiros itens são do cabeçalho do arquivo XML, estão bloqueadas da tradução. <br/>
+            Os textos da tradução começam apartir da quarta caixa onde começa em Lago Wendigo(Wendigo Lake)
+        </div>
+        <h3>Dicionário</h3>
+        <div>
+            <p>Facility - Usina/Instalação/Fábrica</p>
+            <p>Reactor - Reator</p>
+            <p>Reactor Core - Núcleo do Reator</p>
+            <p>Proving Grounds - Local de Testes/Campo de Testes</p>
+            <p>Pathfinder - Nome da Divisão(Não será traduzido)</p>
+            <p>Private - Soldado</p>
+            <p>Private First Class - Soldado de Primeira Classe</p>
+            <p>Lieutenant - Tenente</p>
+            <p>L.E.A.F. suit - Traje L.E.A.F.</p>
+            <p>Acorn - Bolota/Semente (<span class="tooltip-container">
+                <a href="#">?</a>
+                <span class="tooltip">Pelo contexto pode ser uma <br/>semente, porém só jogando para <br/>saber oque realmente é<br/> e então aí corrigir se estive errado</span>
+            </span>)</p>
+        </div>
+        <div id="entries"></div>
+        <button id="saveBtn">Salvar XML</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <a id="downloadLink" href="#" class="download-link">Download XML</a>
+                <button onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: #f4f4f4; 
+    margin: 0; 
+    padding: 20px; 
+}
+
+.container { 
+    max-width: 1200px; 
+    margin: auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.entry { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 12px; 
+    background: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.entry .text-container { 
+    flex: 1; 
+    position: relative; 
+}
+
+.styled-text { 
+    white-space: pre-wrap; 
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    min-height: 80px; 
+    background: #fff; 
+    border-radius: 6px; 
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.readonly { 
+    background: #f1f1f1; 
+}
+
+.translate {
+    top: 14px;
+}
+
+.copy-btn, #saveBtn {
+    padding: 8px 12px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.copy-btn:hover, #saveBtn:hover {
+    background: #0056b3;
+}
+
+.copy-btn { 
+    margin: 0 10px; 
+    font-size: 14px;
+}
+
+#saveBtn { 
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Destacar códigos &lt;...&gt; */
+.blue { 
+    color: blue; 
+}
+
+/* Modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3); 
+    z-index: 1000;
+}
+
+.modal.active { 
+    display: block; 
+}
+
+.modal button { 
+    background: #dc3545; 
+    color: white; 
+    border: none; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.modal button:hover { 
+    background: #b02a37; 
+}
+
+ /* Estilo do container do link */
+ .tooltip-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Estilo do tooltip */
+        .tooltip-container .tooltip {
+            visibility: hidden;
+            background-color: black;
+            color: #fff;
+            text-align: justify;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 125%; /* Posição acima do link */
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        /* Seta do tooltip */
+        .tooltip-container .tooltip::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
+        }
+
+        /* Mostra o tooltip ao passar o mouse */
+        .tooltip-container:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* CSS para index-label */
+.index-label {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 30px;
+    text-align: right;
+}
+
+.name-label {
+    margin-left: 10px;
+    font-weight: bold;
+    min-height: 30px; 
+}
