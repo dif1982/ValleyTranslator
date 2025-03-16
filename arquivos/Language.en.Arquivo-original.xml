@@ -1,0 +1,3535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="01 Intro" xml:space="preserve">
+		<value>Wendigo Lake</value>
+	</data>
+	<data name="02 Valley" xml:space="preserve">
+		<value>Sussurus Valley</value>
+	</data>
+	<data name="03 Cliff" xml:space="preserve">
+		<value>Titan Rock</value>
+	</data>
+	<data name="04a Reactor Upstairs" xml:space="preserve">
+		<value>Soma Facility</value>
+	</data>
+	<data name="04b Reactor Downstairs" xml:space="preserve">
+		<value>Soma Reactor</value>
+	</data>
+	<data name="05 Barracks" xml:space="preserve">
+		<value>Camp Henday</value>
+	</data>
+	<data name="06 Field" xml:space="preserve">
+		<value>Proving Grounds</value>
+	</data>
+	<data name="07a Facility_Lake" xml:space="preserve">
+		<value>Smoke Lake</value>
+	</data>
+	<data name="07b Facility_Finale" xml:space="preserve">
+		<value>Astra Facility</value>
+	</data>
+	<data name="acorns" xml:space="preserve">
+		<value>acorns</value>
+	</data>
+	<data name="astra_guard_note_tw" xml:space="preserve">
+		<value>Note from Private Reilly:
+
+Today I was ordered to patrol the Astra facility. McDavid was all panicky about some 
+sabotage attempt or something. “Yeah right” I thought. Anyhow, I fell asleep. 
+</value>
+	</data>
+	<data name="barracks_andrew_astra2_vo" xml:space="preserve">
+		<value>As a precaution, we cannot allow Astra
+to operate without a link to Soma; &lt;until 4.818&gt;
+otherwise it will pull energy indiscriminately,
+until it has robbed life from the entire valley, &lt;until 10.124&gt;
+or even the entire planet. &lt;until 12.136&gt;
+There should be enough energy within Soma’s
+auxiliary reserves to sustain the link for years. &lt;until 16.389&gt;
+However, if the link to Soma is ever disrupted,
+Astra will need to be shut down immediately. &lt;until 22.389&gt;</value>
+	</data>
+	<data name="barracks_andrew_disruptplan_vo" xml:space="preserve">
+		<value>Word has come in of a suspected attempt
+to sabotage our operations at Area 634. &lt;until 5.125&gt;
+The report indicates a soldier from the Pathfinder
+division may have committed himself to treason &lt;until 10.413&gt;
+by planning to use the Thanatos cannon prototype
+being developed at Astra to destroy the reactor. &lt;until 16.403&gt;
+The report came from a colleague
+of the alleged perpetrator, &lt;until 19.945&gt;
+suspecting him as a potential Soviet operative.
+Since we only have one man’s word to go on, &lt;until 25.695&gt;
+we will need to catch him and any other
+accomplice in the act. &lt;until 29.675&gt;
+As such, guards will be posted,
+discreetly, at Astra. &lt;until 34.600&gt;
+Nothing will intervene with PENDULUM’s completion &lt;until 38.100&gt;</value>
+	</data>
+	<data name="barracks_andrew_leaflockup_vo" xml:space="preserve">
+		<value>In response to the recent sabotage attempt
+and arrest of the culprits, &lt;until 4.750&gt;
+I am ordering all Pathfinder operations to be
+suspended, and all L.E.A.F. suits &lt;until 8.862&gt;
+locked away until project completion.
+The suits are too powerful to fall into &lt;until 12.654&gt;
+the wrong hands. Additionally, I am requesting
+all evidence of the sabotage attempt, &lt;until 17.982&gt;
+including Private First Class Edwin Hall’s
+own L.E.A.F. suit and Ms. King’s recordings, &lt;until 22.829&gt;
+to be gathered and sent to storage until
+a proper military tribunal can take place. &lt;until 27.362&gt;
+Until then, all suspects will remain in detention. &lt;until 30.710&gt;
+With the recent increase in production,
+it should not be long. &lt;until 34.229&gt;</value>
+	</data>
+	<data name="barracks_andrew_wallrun_vo" xml:space="preserve">
+		<value>Private Hendricks, I’m providing your squad with
+the newly devised Magnetic Core &lt;until 4.338&gt;
+for your L.E.A.F. suit so that you may test
+its limitations. Take your squad to the train &lt;until 9.077&gt;
+loading dock connecting to the tram tunnel:
+it should prove an ample testing ground &lt;until 12.924&gt;
+for this latest upgrade.
+Report back by the end of the day tomorrow. &lt;until 16.784&gt;</value>
+	</data>
+	<data name="barracks_edwin_jail_tw" xml:space="preserve">
+		<value>Note from Edwin Hall:
+
+I claim responsibility for the sabotage attempt. Virginia King had no role or knowledge 
+of my plan to damage the Astra facility. I deceived her into coming with me to ensure her safety. 
+Please, release her from custody.
+</value>
+	</data>
+	<data name="barracks_edwin_note3_tw" xml:space="preserve">
+		<value>Note from Edwin Hall to Private Gregory:
+
+Great job out there today, you smoked those Raptor goons on the timing run. 
+Keep it up buddy.
+
+</value>
+	</data>
+	<data name="barracks_edwin_sabotage_tw" xml:space="preserve">
+		<value>Letter from Edwin Hall to Virginia King:
+
+I think you’re insane for doing this, but I don’t think I can stop you…
+The best way to do this is tomorrow night during the guard shift switch. No matter what, we cannot 
+allow ourselves to get caught. 
+
+</value>
+	</data>
+	<data name="barracks_edwin_virginia_tw" xml:space="preserve">
+		<value>Letter from Edwin Hall to Virginia King:
+
+Please don’t go through with this. This is the army we’re talking about, during a war. 
+They’ll execute you if do anything they consider traitorous. I can’t bear that thought. Listen to me, 
+I know the things they’re doing are vile to say the least, but is it worth risking your life over? Please, 
+Virginia, reconsider this.
+</value>
+	</data>
+	<data name="barracks_guard_icerink_tw" xml:space="preserve">
+		<value>Note from a soldier:
+
+Hey Lenny,
+
+It gets pretty frigid out here in winter, eh? What do you say we build ourselves an ice rink out behind the 
+barracks? Get some makeshift skates and some hockey sticks and have our own tournament.
+</value>
+	</data>
+	<data name="barracks_guard_interrogation_tw" xml:space="preserve">
+		<value>Report from a guard:
+
+Edwin Hall, Pathfinder, Private First Class.
+Conceded guilt in regards to sabotage attempt. Claims full responsibility and denies Virginia King’s 
+involvement. 
+Denial of espionage or collusion with foreign governments. 
+</value>
+	</data>
+	<data name="barracks_guard_interrogation_vo" xml:space="preserve">
+		<value>Guard: July 29th, 1945, &lt;until 3.525&gt;
+Interrogating suspects involved
+in the attempted sabotage. &lt;until 6.686&gt;
+Listen, just be up front with us.
+Are you Soviet spies? &lt;until 10.183&gt;
+Virginia: No, for the last time.
+This has nothing to do with politics! &lt;until 14.130&gt;
+Guard: Alright, alright calm down.
+Just tell us your reasons. &lt;until 16.746&gt;
+Virginia: You know how insane Fisher has become!
+He’s willing to destroy this entire valley to- &lt;until 22.716&gt;
+ &lt;until 26.889&gt;
+Guard: What the hell was that? &lt;until 28.500&gt;</value>
+	</data>
+	<data name="barracks_guard_note2_tw" xml:space="preserve">
+		<value>Note from Private Sparks:
+
+Corporal McDavid ordered me to run laps around the barracks for sleeping on duty again. That guy’s a 
+real pain if you ask me. Everyone was watching, so I tried to play it cool and pretend I was running 
+around the barracks by choice. It seemed to be working until I vomited. 
+
+</value>
+	</data>
+	<data name="barracks_lieutenant_reprimand_tw" xml:space="preserve">
+		<value>Note from a lieutenant:
+
+Private Lenny Watts has been reprimanded for conspiring to waste valuable resources and 
+manpower to produce an ice rink. He will be cleaning cafeteria dishes for the next 4 weeks. It is not yet 
+known who else was involved.
+</value>
+	</data>
+	<data name="barracks_memo_alert_tw" xml:space="preserve">
+		<value>Memo:
+
+Please be on alert for any suspicious activity. With the recent revelation of espionage within our ranks, 
+utmost precaution must be practiced.
+</value>
+	</data>
+	<data name="barracks_mp_report_tw" xml:space="preserve">
+		<value>Investigative Report:
+
+Private Matthews, a soldier from the Pathfinder division, has come forward with suspicions that 
+Private First Class Edwin Hall may be attempting to sabotage Area 634 operations. He claims to 
+have disclosed a method to destroy both facilities at once using a weapon devised at Astra, unaware 
+of Hall’s intent. Fearful of the consequences due to his complicity, he has come forward with this 
+startling information. Aside from his word, however, we have no evidence to corroborate his allegations.
+</value>
+	</data>
+	<data name="barracks_pathfinder_pyramid_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+I think we almost have enough medallions to get into that ancient pyramid near Astra. Word has it the 
+Raptor squad is picking up pace, so we need to work fast.
+</value>
+	</data>
+	<data name="barracks_pathfinder_traitor_tw" xml:space="preserve">
+		<value>Report from Private Matthews:
+
+I suspect my squadmate, Edwin Hall, may be plotting some sort of method to use that weapon being 
+built at Astra to stir up some trouble. He keeps asking me questions, though I don’t know much 
+about it. I see him wandering through Astra every now and then, even though that sector isn’t part 
+of his patrol. I’ve known him for some time now, but the way he’s been acting lately has me on edge.
+</value>
+	</data>
+	<data name="barracks_pathfinder_winter_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+I miss the winter months up here. Nothing beats running on the snow with those snowshoe attachments 
+on my L.E.AF. suit. Sliding down hills, gliding on ice, and just sitting back to watch the daemons chase 
+snowflakes are some of my favorite memories from this place.
+</value>
+	</data>
+	<data name="barracks_player_astra" xml:space="preserve">
+		<value>Astra will keep sucking life into it without Soma?</value>
+	</data>
+	<data name="barracks_player_astrakilling" xml:space="preserve">
+		<value>Astra is slowly killing everything...</value>
+	</data>
+	<data name="barracks_player_caught" xml:space="preserve">
+		<value>Were they caught?</value>
+	</data>
+	<data name="barracks_player_creatureastra" xml:space="preserve">
+		<value>Could that have something to do with these creatures?</value>
+	</data>
+	<data name="barracks_player_creatures" xml:space="preserve">
+		<value>What the hell are these creatures?</value>
+	</data>
+	<data name="barracks_player_creatures2" xml:space="preserve">
+		<value>Where did these creatures come from?</value>
+	</data>
+	<data name="barracks_player_flood" xml:space="preserve">
+		<value>This place is flooding fast...</value>
+	</data>
+	<data name="barracks_player_isthatastra" xml:space="preserve">
+		<value>That must be Astra...</value>
+	</data>
+	<data name="barracks_player_stopit" xml:space="preserve">
+		<value>It needs to be shut down...</value>
+	</data>
+	<data name="barracks_player_tipple" xml:space="preserve">
+		<value>Maybe I can access the tram tunnel from the train dock...</value>
+	</data>
+	<data name="barracks_player_tram" xml:space="preserve">
+		<value>That tunnel can take me to Astra...</value>
+	</data>
+	<data name="barracks_player_virginia" xml:space="preserve">
+		<value>Virginia...</value>
+	</data>
+	<data name="barracks_player_virginiaoffice" xml:space="preserve">
+		<value>Virginia's office...</value>
+	</data>
+	<data name="barracks_player_virginiastra" xml:space="preserve">
+		<value>Did Virginia try to stop Astra?</value>
+	</data>
+	<data name="barracks_researcher_armory_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The L.E.A.F. suit Mark I proved successful in its capacity to manipulate amrita energy on a small, mobile 
+scale. The Mark II saw the addition of pilot amrita infusion and stronger protective plating to the thighs. 
+Mark III research and development is still underway.
+</value>
+	</data>
+	<data name="barracks_researcher_balance_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The Soma and Astra facility are held in a delicate balance. While Astra ‘takes’, Soma ‘gives’. The two are 
+interlocked with each other, kind of like a yin yang. In order to produce bombs, we need an external 
+source of energy to inject into the system to pass through the Lifeseed acting as an amplifier and 
+outputted as weapon grade fuel. 
+
+I have to admit, I’m a little afraid to be working with such a delicate and dangerous system. But I’m 
+certain the bombs we're building out of it will put an immediate end to warfare forever. 
+</value>
+	</data>
+	<data name="barracks_researcher_dodos_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The sprites, or “daemons”, of this valley are so incredibly friendly and fearless. 
+They remind me of dodo birds. I hope these little guys don’t face the same fate as a result of their 
+naivety.
+</value>
+	</data>
+	<data name="barracks_researcher_ecosystem_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+How delicate is the ecosystem in the valley? What role do the daemons play within it? As Astra pulls in 
+more and more life energy, it seems as though we’re risking permanently destroying the balance of this 
+ecosystem. Is that the price for victory in the war? I should probably keep these thoughts to myself.
+</value>
+	</data>
+	<data name="barracks_researcher_rampup_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+I can’t believe we’re ramping up production, this seems suicidal. I hope they know what they are doing. I 
+think we’re going to end up killing everything in this valley. 
+</value>
+	</data>
+	<data name="barracks_researcher_virginia_tw" xml:space="preserve">
+		<value>Letter from an anonymous researcher to Virginia King:
+
+Virginia, I know of a way to use that cannon you mentioned to disrupt the project. It may sound crazy, 
+but it’s worth a shot. Something needs to be done as soon as possible. Not only are we risking our own 
+lives out here, we’re endangering this entire valley, if not the world. Meet me tomorrow night near the 
+step pyramid just past dusk. Make sure no one sees you.
+</value>
+	</data>
+	<data name="barracks_soldier_note_tw" xml:space="preserve">
+		<value>Note from a soldier:
+
+The isolation policy here is pretty damn extreme. I haven’t had any communication with my family in 
+months. For some of the guys, it’s been years. How is my wife doing? Are my parents in good health? 
+Did my brother ever get sent off to Europe? I can’t wait until this is all over.
+</value>
+	</data>
+	<data name="barracks_soldier_note2_tw" xml:space="preserve">
+		<value>Note from a soldier:
+
+No one believes me that there’s something down inside that giant colossus head. I swear I heard 
+something in there, something that wasn’t human. I could feel it watching me. There’s no way I’m going 
+into that thing at night again.
+</value>
+	</data>
+	<data name="barracks_virginia_anthropology_tw" xml:space="preserve">
+		<value>M.1003.311.468
+
+Stone Door
+
+Possible Wendigo depiction
+</value>
+	</data>
+	<data name="barracks_virginia_anthropology1_tw" xml:space="preserve">
+		<value>M.1287.117.511
+
+Large vase
+
+Possible depiction of World Turtle
+</value>
+	</data>
+	<data name="barracks_virginia_anthropology2_tw" xml:space="preserve">
+		<value>M.1167.367.798
+
+Clay pottery
+
+Ornate designs indicative of fine ware
+</value>
+	</data>
+	<data name="barracks_virginia_destruction_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+How simple is it to abuse this valley for the sake of building weapons? It’s so easy to destroy…but 
+creation, that’s what advances civilizations. Where would the Romans be if all their inventions were 
+solely for warfare? We think too small. If we think only of the war, what cost will we pay down the road? 
+The next battle, the next war; what about the next generation?
+</value>
+	</data>
+	<data name="barracks_virginia_destruction_vo" xml:space="preserve">
+		<value>N/A Removed</value>
+	</data>
+	<data name="barracks_virginia_family_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+As much as I love this valley, the thought of returning home with Edwin makes me so happy.
+</value>
+	</data>
+	<data name="barracks_virginia_jail_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+To whoever may find this, please stop Pendulum at any cost. Andrew Fisher has gone mad 
+and won’t stop short of harming this planet to satisfy his pride. Do anything you can to disrupt 
+this project before they destroy the entire valley. There’s nothing I can do now.
+</value>
+	</data>
+	<data name="barracks_virginia_plan_vo" xml:space="preserve">
+		<value>They won’t listen. The energy they’re demanding &lt;until 3.848&gt;
+from the valley is far outpacing whatever
+can be produced from the orbs. &lt;until 8.023&gt;
+It’s killing this place… and we'll lose it
+forever if we don't do something. &lt;until 14.623&gt;
+Edwin may try to stop me; &lt;until 17.203&gt;
+I’ll no doubt be charged with treason
+if I’m caught... &lt;until 20.793&gt;
+maybe even executed.
+But this is larger than me; &lt;until 25.969&gt;
+this valley…it could very well change the world.
+I have to save it before it’s lost forever. &lt;until 35.379&gt;</value>
+	</data>
+	<data name="barracks_virginia_tram_vo" xml:space="preserve">
+		<value>Edwin’s reluctantly agreed to help,
+if only to make sure nothing happens to me. &lt;until 7.630&gt;
+One of his squad mates mentioned to him a weapon
+being built at Astra…some sort of cannon. &lt;until 14.450&gt;
+We should be able to use it to
+destroy Astra beyond reparation; &lt;until 19.160&gt;
+enough to shut down this project.
+Unfortunately everyone is working round the clock &lt;until 25.439&gt;
+with the increase in production, so we’ll need
+to pull an alarm to get everyone out. &lt;until 30.550&gt;
+We can then sneak into Astra
+through the underground tram tunnel &lt;until 34.855&gt;
+that connects the two sites.
+No one should get hurt...or hopefully caught. &lt;until 42.675&gt;
+To whom ever may find this recording,
+please understand that Fisher &lt;until 48.714&gt;
+has strayed beyond reason.
+If we don’t put a stop to this madness, &lt;until 53.319&gt;
+they could destroy this valley,
+and with power like this, maybe even the world. &lt;until 60.497&gt;
+If we’ve failed, please do whatever it takes
+to stop them before it’s too late. &lt;until 67.187&gt;</value>
+	</data>
+	<data name="barracks_worker_complaining_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+Those damn Pathfinders keep getting in the way of our loading. The way they run 
+around on these walls, training for who knows what, they think they own this place. Well 
+I have a job to do, and I’ll be damned if these brash young men put me behind schedule. 
+</value>
+	</data>
+	<data name="barracks_worker_tower_tw" xml:space="preserve">
+		<value>Memo:
+
+Isolation Policy in effect. All aircraft to remain grounded until policy is lifted following project 
+completion. Any aircraft attempting to leave the site will be taken down through aggressive 
+measures.
+</value>
+	</data>
+	<data name="barracks_worker_tunnels_tw" xml:space="preserve">
+		<value>Memo from an engineer:
+
+Please be cautious when traveling through the utility tunnels. Listen and watch for possible signs of 
+collapse. The load bearing beams appear to be warping under the stress of the mountain weight. Crews 
+will be sent out weekly to monitor tunnel integrity.
+</value>
+	</data>
+	<data name="choose_voice" xml:space="preserve">
+		<value>Choose A Gender</value>
+	</data>
+	<data name="cliff_andrew_hookshot_vo" xml:space="preserve">
+		<value>The Viper Coil upgrade to the L.E.A.F. suit &lt;until 2.064&gt;
+allows Pathfinders to grapple onto certain
+target points within a limited range, &lt;until 6.824&gt;
+allowing them to reach areas
+where jumps prove insufficient. &lt;until 10.886&gt;
+For testing purposes, the Viper Coil
+is currently limited to particular targets. &lt;until 15.440&gt;</value>
+	</data>
+	<data name="cliff_engineer_craneblocks_tw" xml:space="preserve">
+		<value>Note from an engineer:
+
+Ever since the Pathfinder program decided to use the deadeye crane blocks as part of their training, my 
+engineers have been consistently putting themselves in harm’s way to set them up. One poor fellow 
+tragically fell to his death while stringing up a deadeye across a chasm. 
+
+We don’t even get to wear a damn L.E.A.F. suit, otherwise he may have lived. What a waste.
+</value>
+	</data>
+	<data name="cliff_guard_note_tw" xml:space="preserve">
+		<value>Note from Private Sparks:
+
+McDavid’s been riding me again. It’s like a guy can’t take a nap anymore these days. Sure, I was on guard 
+duty at the time, but what am I guarding against? There’s nothing out here. 
+
+Yesterday I saw a rabbit run by. It was the highlight of my day.
+</value>
+	</data>
+	<data name="cliff_intercom_approachfacility_vo" xml:space="preserve">
+		<value>Only authorized personnel are permitted on the
+premise. In accordance with the War Measures Act, &lt;until 5.371&gt;
+extreme security screening
+and clearance is in effect. &lt;until 8.284&gt;
+All personnel entering cargo bay
+require appropriate badge identification. &lt;until 12.664&gt;</value>
+	</data>
+	<data name="cliff_memo_somamemo_tw" xml:space="preserve">
+		<value>Reminder to all personnel:
+
+Please keep a safe distance away from Amrita Swarms. They often become territorially aggressive 
+when in need of amrita. If a swarm is blocking access for you, please request for a Pathfinder to 
+pacify the swarm.
+
+</value>
+	</data>
+	<data name="cliff_pathfinder_bear_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+Everyone here thinks I’m a liar. No one believes I got attacked by a grizzly bear during one of my runs. 
+Luckily I managed to extract its life before it could swipe at my face! 
+
+I got real far before turning back to return its life energy. Hope I never see the likes of him again.
+</value>
+	</data>
+	<data name="cliff_pathfinder_death_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+Dying while wearing the L.E.A.F. suit is an incredible experience. No one outside myself can possibly 
+observe it. The best way I can describe it is as a day dream one sometimes gets lost in. I die by falling 
+into a lake, and the next second I’m standing by the shore, no one else being the wiser about what just 
+happened to me. Is it even real?
+</value>
+	</data>
+	<data name="cliff_pathfinder_exploringdoors_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+We’ve got a large portion of this valley mapped out so far. As far as I know, we’ve explored most of the 
+acorn doors.  I hear there are a couple squads with almost enough medallions to access that big step 
+pyramid.
+</value>
+	</data>
+	<data name="cliff_pathfinder_pyramid_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+These medallions are getting cleaned up fast. Getting into that pyramid first is gonna be tough. 
+Hopefully I find some more quick; I want to be the first to explore it.
+</value>
+	</data>
+	<data name="cliff_player_abandoned" xml:space="preserve">
+		<value>Where did everyone go?</value>
+	</data>
+	<data name="cliff_player_amritatanks" xml:space="preserve">
+		<value>Amrita storage?</value>
+	</data>
+	<data name="cliff_player_lifeseed" xml:space="preserve">
+		<value>Did he know about the Lifeseed?</value>
+	</data>
+	<data name="cliff_player_lifeseed2" xml:space="preserve">
+		<value>How long has this been abandoned?</value>
+	</data>
+	<data name="cliff_player_pathfinder" xml:space="preserve">
+		<value>Did Pathfinders train here?</value>
+	</data>
+	<data name="cliff_player_power" xml:space="preserve">
+		<value>These lights still have power...</value>
+	</data>
+	<data name="cliff_player_whathappened" xml:space="preserve">
+		<value>What happened to everyone?</value>
+	</data>
+	<data name="cliff_researcher_squads_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Pathfinder squad point tally from the daily exercises:
+
+Landsharks: 48
+Raptors: 43
+Valkryies: 37
+Buckriders: 37
+Wild Roses: 29
+</value>
+	</data>
+	<data name="cliff_soldier_sighting_tw" xml:space="preserve">
+		<value>Memo:
+
+Stay on the lookout for any intruders on the premises. A number of guards have reported seeing 
+shadowy figures watching our operations from afar. It could be a sign of possible espionage. Report 
+trespasser sightings at once.
+</value>
+	</data>
+	<data name="cliff_virginia_footprint_vo" xml:space="preserve">
+		<value>While I appreciate being
+brought in to study the valley, &lt;until 3.450&gt;
+I wish the military’s presence
+here wasn’t so…domineering. &lt;until 8.760&gt;
+I can’t say these giant
+structures add much to the view. &lt;until 13.020&gt;
+It would be nice if this was simply
+a place of study and conservation. &lt;until 17.612&gt;
+I’m doing my best to steer
+the army away from the ruins, &lt;until 20.108&gt;
+but the only thing that seems
+to concern them is their project, &lt;until 24.775&gt;
+gathering up as many of
+these strange orbs as they possibly can. &lt;until 28.685&gt;</value>
+	</data>
+	<data name="cliff_virginia_hiddenvalley_vo" xml:space="preserve">
+		<value>// N/A Removed</value>
+	</data>
+	<data name="cliff_virginia_isolated_vo" xml:space="preserve">
+		<value>As lonely as it’s been with the isolation policy
+in effect, I’ve often found myself in the company &lt;until 6.276&gt;
+of a Pathfinder named Edwin Hall. The things
+he can do in a L.E.A.F. suit are astounding. &lt;until 15.047&gt;
+Some nights we’ll head to the rooftop
+above my office and watch the auroras. &lt;until 21.157&gt;
+I have no idea what he could possibly
+see in me though… I tend to ramble a lot. &lt;until 27.547&gt;
+I mean, who wouldn’t find Mesoamerican calendrical
+systems anything other than fascinating? &lt;until 34.317&gt;
+Guys love that stuff! Right…? &lt;until 38.177&gt;</value>
+	</data>
+	<data name="cliff_virginia_lamentation_vo" xml:space="preserve">
+		<value>While I appreciate being brought in 
+to study the valley, &lt;until 4.300&gt;
+I wish the military’s presence here wasn’t so… &lt;until 8.493&gt;
+domineering. &lt;until 10.410&gt;
+I feel pity for this once pristine valley. &lt;until 15.020&gt;
+This should be a place of study and conservation… &lt;until 19.273&gt;
+not some twisted experiment. &lt;until 22.00&gt;
+We have no right interfering in 
+such a delicate ecosystem. &lt;until 27.492&gt;</value>
+	</data>
+	<data name="cliff_virginia_samsara_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+Samsara: the repeating cycle of birth, life and death, affected by the karma fostered during one’s life. Is 
+that what Pathfinders experience, constantly dying and reviving? According to Buddhism there is no 
+beginning to this cycle but it can, however, be broken through enlightenment. 
+</value>
+	</data>
+	<data name="cliff_virginia_susurrus_vo" xml:space="preserve">
+		<value>
+//no Audio File
+
+Area 634, Ainihkiwa, Site 39B- we have so many different names for this valley. 
+I have my own word for it: Susurrus. 
+The beauty of that word seems to rival the majesty of this place.
+ It seems fitting given the calm and soothing nature of the breeze. 
+Susurrus- that’s what I think when I lie in the moss and look up at the clouds floating by,
+ carried by the breeze I hear as it weaves through trees and blades of grass. It’s perfect! 
+
+</value>
+	</data>
+	<data name="cliff_virginia_valleydiscovery_vo" xml:space="preserve">
+		<value>From what I’ve been told, &lt;until 1.380&gt;
+Susurrus was discovered back in 1811
+by a surveyor seeking to map this remote region. &lt;until 7.802&gt;
+No one believed what he reportedly saw.
+Due to the sheer remoteness of the region, &lt;until 14.222&gt;
+his story was written off as the senile delusions
+of an old man, and his tale was soon forgotten. &lt;until 21.802&gt;
+It was not until recently that the government was
+approached by a scientist named Andrew Fisher &lt;until 26.937&gt;
+to use this location as an alternative
+energy project of some sort. &lt;until 31.779&gt;
+How he came to discover this place is beyond me. &lt;until 35.399&gt;</value>
+	</data>
+	<data name="cliff_worker_colossi_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+Those colossi statues all over this valley are a bit… unnerving. Why would the ancient people who lived 
+here build that kind of stuff? As scary as they are, I still find there is a beauty to them. Something 
+about those monstrous faces sitting amongst the calm forest captures an odd sense of allure.
+</value>
+	</data>
+	<data name="cliff_worker_mountainside_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+Working the pipes on this place is a real pain. It’s as though they went out of their way to build their 
+facility in the worst place imaginable, just to make it tough on lowly pipefitters like me. Repairing a 
+pressure system leak takes me the half of a day just to get to it! 
+
+They ain’t paying me enough if you ask me.
+</value>
+	</data>
+	<data name="death_screen_description" xml:space="preserve">
+		<value>Não há energia suficiente para reviver você mesmo</value>
+	</data>
+	<data name="death_screen_map" xml:space="preserve">
+		<value>Começar do Mapa</value>
+	</data>
+	<data name="death_screen_menu" xml:space="preserve">
+		<value>Retornar ao Menu Principal</value>
+	</data>
+	<data name="death_screen_restart" xml:space="preserve">
+		<value>Reiniciar Nível</value>
+	</data>
+	<data name="death_screen_title" xml:space="preserve">
+		<value>O Vale está morto</value>
+	</data>
+	<data name="delete_slot_description" xml:space="preserve">
+		<value>Seu save slot no momento está sendo apagado. Por favor Aguarde...</value>
+	</data>
+	<data name="delete_slot_title" xml:space="preserve">
+		<value>Apagando Slot...</value>
+	</data>
+	<data name="facility_andrew_final_vo" xml:space="preserve">
+		<value>With the combined power of both
+Thanatos and the Brahmastra bomb, &lt;until 4.960&gt;
+the power to control the world will lie
+within the hands of a small few, &lt;until 9.475&gt;
+every nation on Earth will tremble in fear- &lt;until 14.000&gt;</value>
+	</data>
+	<data name="facility_andrew_regret_vo" xml:space="preserve">
+		<value>There’s no escape… everyone, they’re… they’re all
+getting killed by these things, these creatures. &lt;until 7.543&gt;
+If anyone ever hears this, please understand.
+Please understand what we were doing here- &lt;until 12.298&gt;
+the things we created!
+The world must see our achievements! &lt;until 15.472&gt;
+Our work will change the course of human history!
+Whoever holds this technology &lt;until 21.358&gt;
+holds the world in their hands.
+Remember what I accomplished… &lt;until 26.200&gt;</value>
+	</data>
+	<data name="facility_andrew_thanatos_vo" xml:space="preserve">
+		<value>Since we had to catch the saboteurs in the act, &lt;until 2.869&gt;
+we allowed them access into the Astra facility
+during their night of attack. &lt;until 7.030&gt;
+Admittedly, their plan was rather genius-
+since Astra and Soma are linked, &lt;until 11.851&gt;
+they intended to fire the Thanatos cannon
+connected to Astra’s thermal storage &lt;until 15.676&gt;
+at the Soma facility’s energy reservoir to create
+a feedback loop of amplifying intensity &lt;until 20.255&gt;
+until the system blows out,
+not unlike a microphone to a speaker. &lt;until 24.985&gt;</value>
+	</data>
+	<data name="facility_andrew_thanatos2_vo" xml:space="preserve">
+		<value>We had temporarily removed the Lifeseed from
+the Soma reactor necessary for the amplification, &lt;until 5.220&gt;
+thus creating a harmless feedback loop
+when they attempted to fire Thanatos. &lt;until 10.240&gt;
+Without the Lifeseed, their plan was doomed
+to fail from the beginning. &lt;until 14.778&gt;
+I will NOT tolerate any more disruptions!
+We have lost too much ground to Manhattan! &lt;until 21.043&gt;
+Operations will resume exponentially-
+if the orbs will not suffice, &lt;until 25.886&gt;
+then we’ll use the damn valley itself! &lt;until 28.936&gt;</value>
+	</data>
+	<data name="facility_andrew_waterrun_vo" xml:space="preserve">
+		<value>I’ve tasked the Valkyrie pathfinder squad with &lt;until 2.504&gt;
+testing out the Lake Skipper upgrade
+for the L.E.A.F. suit. &lt;until 5.363&gt;
+The lake near the Astra Facility
+should prove ideal for the assessment. &lt;until 9.262&gt;
+I expect a full report on my desk
+as soon as testing is complete. &lt;until 12.702&gt;</value>
+	</data>
+	<data name="facility_andrew_wmds_vo" xml:space="preserve">
+		<value>The bomb…it’s only the beginning. &lt;until 3.480&gt;
+Imagine a weapon of mass destruction
+without the structural damage incurred. &lt;until 7.820&gt;
+By extrapolating the mechanics of
+the L.E.A.F. suit’s God Hand to a larger scale, &lt;until 12.071&gt;
+I have devised a weapon capable of stripping
+all life from cities, even entire nations, &lt;until 17.851&gt;
+when used with the Lifeseed!
+The Thanatos cannon &lt;until 20.979&gt;
+will be the optimal super weapon,
+rendering all others obsolete! &lt;until 26.882&gt;
+These bombs we’re all competing to produce
+will look paltry in comparison! &lt;until 32.500&gt;</value>
+	</data>
+	<data name="facility_engineer_astrasomalink_tw" xml:space="preserve">
+		<value>Note from an engineer:
+
+The Thanatos cannon has been linked to the amrita reservoir so that the energy it draws can be stored. 
+Excess amrita is burned off through flare stacks. If too much amrita enters the reservoirs too quickly, the 
+flare stacks will not be able to burn it off quickly enough once the reservoirs fill, let alone once it gets 
+amplified when passing through the Lifeseed at Soma. Luckily, we have ample amounts of water from 
+Smoke Lake to pump into Astra in case of emergency meltdown.
+</value>
+	</data>
+	<data name="facility_fisher_brahmastra_tw" xml:space="preserve">
+		<value>Note from Andrew Fisher:
+
+The Bhramastra will be the greatest bomb the world has ever seen. I should be able to gather enough amrita 
+energy to produce a 100 megaton bomb. Can you imagine? Every nation on Earth will tremble before 
+this unprecedented weapon.
+
+</value>
+	</data>
+	<data name="facility_intercom_astrawelcome_vo" xml:space="preserve">
+		<value>// N/A Removed</value>
+	</data>
+	<data name="facility_intercom_cooling_vo" xml:space="preserve">
+		<value>// N/A Removed</value>
+	</data>
+	<data name="facility_intercom_emergencyexit_vo" xml:space="preserve">
+		<value>Danger, thermal core meltdown detected.
+Cooling protocol initiated. &lt;until 6.031&gt;
+All personnel must vacate the premises immediately
+through emergency corridors. &lt;until 10.000&gt;</value>
+	</data>
+	<data name="facility_intercom_emergencyexit2_vo" xml:space="preserve">
+		<value>Thermal core heat has
+exceeded containable limits. &lt;until 4.207&gt;
+Emergency flooding volume escalating
+to contain meltdown. &lt;until 5.490&gt;
+Please exit the premises immediately. &lt;until 8.650&gt;</value>
+	</data>
+	<data name="facility_intercom_lifeextraction_vo" xml:space="preserve">
+		<value>Warning: Environmental extraction occurring. &lt;until 4.247&gt;
+Please shut down Astra immediately. &lt;until 6.850&gt;</value>
+	</data>
+	<data name="facility_intercom_meltdown_vo" xml:space="preserve">
+		<value>Welcome to the Astra Facility. &lt;until 2.973&gt;
+In case of meltdown,
+emergency cooling mechanism will initiate. &lt;until 6.262&gt;
+Please vacate the premise immediately
+during the emergency flooding protocol. &lt;until 10.000&gt;</value>
+	</data>
+	<data name="facility_player_alpha1" xml:space="preserve">
+		<value>What the hell was that thing?</value>
+	</data>
+	<data name="facility_player_alpha2" xml:space="preserve">
+		<value>This must be where they fed on everyone...</value>
+	</data>
+	<data name="facility_player_bombs" xml:space="preserve">
+		<value>The bombs...</value>
+	</data>
+	<data name="facility_player_cave" xml:space="preserve">
+		<value>What are these guys doing down here?</value>
+	</data>
+	<data name="facility_player_destroy" xml:space="preserve">
+		<value>I can end this atrocity</value>
+	</data>
+	<data name="facility_player_feedbackloop" xml:space="preserve">
+		<value>Amplified feedback loop...</value>
+	</data>
+	<data name="facility_player_flood" xml:space="preserve">
+		<value>This place is flooding fast</value>
+	</data>
+	<data name="facility_player_hole" xml:space="preserve">
+		<value>What happened here?</value>
+	</data>
+	<data name="facility_player_hole2" xml:space="preserve">
+		<value>What's down there?</value>
+	</data>
+	<data name="facility_player_nest1" xml:space="preserve">
+		<value>Human bones...</value>
+	</data>
+	<data name="facility_player_nest2" xml:space="preserve">
+		<value>What is this place?</value>
+	</data>
+	<data name="facility_player_nest3" xml:space="preserve">
+		<value>Those creatures must have brought them all here...</value>
+	</data>
+	<data name="facility_player_nest4" xml:space="preserve">
+		<value>Is this... a nest?</value>
+	</data>
+	<data name="facility_player_office" xml:space="preserve">
+		<value>Fisher's office?</value>
+	</data>
+	<data name="facility_player_orbs1" xml:space="preserve">
+		<value>The daemons...</value>
+	</data>
+	<data name="facility_player_orbs2" xml:space="preserve">
+		<value>They hatch from the orbs...</value>
+	</data>
+	<data name="facility_player_orbs3" xml:space="preserve">
+		<value>...and become those creatures</value>
+	</data>
+	<data name="facility_player_orbs4" xml:space="preserve">
+		<value>This suit...this whole time...</value>
+	</data>
+	<data name="facility_player_protocol" xml:space="preserve">
+		<value>Emergency flooding?</value>
+	</data>
+	<data name="facility_player_speaker" xml:space="preserve">
+		<value>Just like blowing out a speaker</value>
+	</data>
+	<data name="facility_player_stubborn" xml:space="preserve">
+		<value>Stubborn to the bitter end...</value>
+	</data>
+	<data name="facility_player_thanatos" xml:space="preserve">
+		<value>I can finish what Virginia started...</value>
+	</data>
+	<data name="facility_player_virginiaedwin" xml:space="preserve">
+		<value>So that's what happened to Virginia and Edwin...</value>
+	</data>
+	<data name="facility_player_weapon" xml:space="preserve">
+		<value>Thanatos...</value>
+	</data>
+	<data name="facility_player_weapon2" xml:space="preserve">
+		<value>That must be the weapon Virginia planned on using...</value>
+	</data>
+	<data name="facility_researcher_alpha_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Some researchers have reported spotting an Alpha daemon in the field. Though unverified, the reports 
+indicate a larger form with elongated antlers. Until more evidence is provided, its existence will remain 
+conjectural.
+</value>
+	</data>
+	<data name="facility_researcher_amrita_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Good thing we have these amrita fuel slugs around. I’m a bit worried to go outside with the Astra facility 
+going into full production. It seems to be killing the environment around it. Maybe if I had a L.E.A.F. suit 
+I’d be a little braver, but for now I’ll stick close to energy reserves.
+</value>
+	</data>
+	<data name="facility_researcher_astradanger_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+If production is not slowed down soon, there won’t be much amrita energy left to draw from the Valley. 
+I think this places our own personnel in danger. Fisher is hell-bent on trumping Oppenheimer, I don’t 
+think this is a good idea.
+</value>
+	</data>
+	<data name="facility_researcher_battleship_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Assuming the Thanatos prototype proves successful, the weapon will be mobilized by placing it upon 
+the deck of a battleship, or more ideally, an aircraft carrier as in order to increase the cannon's range 
+it must be elevated to a high vantage point; otherwise its use will be limited to the coastline.
+
+If the Project Habakkuk ice carrier prototype proves successful, we should be able to mount a high enough 
+shaft with which to raise Thanatos upon its unprecedented massive hull.</value>
+	</data>
+	<data name="facility_researcher_bomb1_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The Brahmastra is the ultimate tool of destruction. While the Thanatos does no structural damage, the 
+Brahmastra will obliterate anything in its wake.  The implications extend beyond military use. Entire 
+mountains can be erased from existence to make way for development, canals can be instantly created 
+to build new shipping lanes. We could have created the Panama Canal in a single day!
+</value>
+	</data>
+	<data name="facility_researcher_bomb2_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+With amrita fuel, we can manufacture weapons at a rate quicker than any single nation engaged 
+in total war. Not to mention the cheap cost to produce:  Astra can pull from any life source deemed 
+necessary to produce bombs of any caliber.
+</value>
+	</data>
+	<data name="facility_researcher_specimen 1_tw" xml:space="preserve">
+		<value>Specimen 001
+Has undergone vivisection to explore amrita extraction techniques. 
+After extraction of 5 Watts the specimen ceased all vital signs.
+</value>
+	</data>
+	<data name="facility_researcher_specimen 2_tw" xml:space="preserve">
+		<value>Specimen 006
+Has been starved of raw amrita energy for 54 days before eventually dying.
+</value>
+	</data>
+	<data name="facility_researcher_specimen 3_tw" xml:space="preserve">
+		<value>Specimen 027
+Vivisection of specimen 027 resulted in death minutes after the removal of 
+its facial mask component. 
+</value>
+	</data>
+	<data name="facility_researcher_specimen 5_tw" xml:space="preserve">
+		<value>Specimen 053
+Specimen died immediately following a test of resistance to radiation bombardment.
+</value>
+	</data>
+	<data name="facility_researcher_specimen 6_tw" xml:space="preserve">
+		<value>Specimen 176
+Dissection has demonstrated evidence of an amrita-based neuron system. 
+</value>
+	</data>
+	<data name="facility_researcher_specimen 7_tw" xml:space="preserve">
+		<value>Specimen 200 managed to generate 1KW before its heart gave out. 
+This specimen is the result of selective breeding and use of amrita compound X7.
+</value>
+	</data>
+	<data name="facility_researcher_sprite1_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Typical instruments were unable to puncture the specimen until the discovery of the amrita blade. 
+Amrita energy contains the ability to cross into the ethereal creature’s phase.
+ </value>
+	</data>
+	<data name="facility_researcher_sprite2_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Tests on specimen 047 have revealed that amrita beta-particles are the cause of its seeming levitation. 
+Unfortunately the charged particles have a half-life of 1 picosecond and are not fit for harvesting.
+</value>
+	</data>
+	<data name="facility_researcher_sprite3_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Advances in mid-air propulsion have been made by charging amrita nuclei and firing beta-particles. 
+Sustained propulsion does not appear possible.
+</value>
+	</data>
+	<data name="facility_researcher_sprite4_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Vivisection of specimen 087 cost the lives of two researchers when the circulatory system was pumped with 
+amrita compound X7 in an attempt to measure storage capacity. The resulting explosion has shown us that 
+a mass of amrita can draw energy from its surroundings
+</value>
+	</data>
+	<data name="facility_researcher_sprite5_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Amrita appears to act like an element of the periodic table yet its entire make-up is much more complex 
+like that of a molecule. Its nucleus contains protons and neutrons in an obscure lattice formation. As the 
+nucleus rotates, certain protons and neutrons appear and re-appear akin to a four dimensional tesseract.
+</value>
+	</data>
+	<data name="facility_scientist_bomb_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The Thanatos Cannon exceeds all efficiencies demonstrated by the bombs. Thanatos can induce the 
+same level of casualties, but retain all infrastructures. Thanatos should render large scale explosives 
+for warfare nearly obsolete. This could be the weapon to end all weapons.
+</value>
+	</data>
+	<data name="facility_virginia_andrew_orbs_vo" xml:space="preserve">
+		<value>Fisher: August 16th, 1944. 
+The latest increase in- &lt;until 5.087&gt;
+Virginia: You knew about this
+the entire time didn’t you?!? &lt;until 7.900&gt;
+Fisher: Ms. King, please. &lt;until 9.169&gt;
+Virginia: How could you?!
+They’re living creatures! &lt;until 11.718&gt;
+Fisher: You have no idea what’s at stake here. &lt;until 14.136&gt;
+Virginia: They’re embryos!
+The orbs you’ve been using are daemon eggs! &lt;until 19.020&gt;
+What you’re doing here is sickening!
+Fisher : Guards! &lt;until 21.952&gt;</value>
+	</data>
+	<data name="facility_virginia_andrew_tw" xml:space="preserve">
+		<value>Letter from Virginia King to Andrew Fisher:
+
+I beg of you Fisher, Pendulum must reduce production immediately to mitigate its detrimental 
+environmental effects. The world has the right to experience this place, and we will lose it if nothing is done.
+</value>
+	</data>
+	<data name="facility_virginia_blindmen_vo" xml:space="preserve">
+		<value>Am I any closer to unlocking
+the secrets of this valley? &lt;until 5.140&gt;
+What are the Susurrians trying to communicate
+through these colossal statues? &lt;until 10.678&gt;
+The Titan Tree, the daemons, and the colossi
+they all intertwine to form a mythology. &lt;until 18.340&gt;
+From what I can tell, the colossi were
+once humans who feasted upon &lt;until 22.392&gt;
+the fruit of the forbidden tree,
+corrupting them into monstrosities- &lt;until 26.336&gt;
+cannibalizing their fellow man
+and devouring all life within the valley. &lt;until 31.044&gt;
+No surprise there- &lt;until 32.994&gt;
+the forbidden fruit of a sacred tree
+is common in mythologies. &lt;until 37.519&gt;
+Is this a tale of caution? &lt;until 40.439&gt;</value>
+	</data>
+	<data name="facility_virginia_blindmen2_vo" xml:space="preserve">
+		<value>What truly baffles me is where the daemons fit- &lt;until 4.370&gt;
+apparently considered wardens of the valley, &lt;until 7.130&gt;
+rising up to destroy the colossi- &lt;until 9.350&gt;
+returning the life that was stolen, 
+back to the valley. &lt;until 12.980&gt;
+But that doesn’t make too much sense- &lt;until 16.490&gt;
+how could these cute little daemons attack, &lt;until 19.627&gt;
+let alone defeat, these giant monsters? &lt;until 22.927&gt;</value>
+	</data>
+	<data name="facility_virginia_valleymusic_vo" xml:space="preserve">
+		<value>// N/A Removed</value>
+	</data>
+	<data name="female_voice_selection" xml:space="preserve">
+		<value>Female</value>
+	</data>
+	<data name="field_edwin_exploring_tw" xml:space="preserve">
+		<value>Note from Edwin Hall:
+
+It’s nice to get away sometimes. There are so many hidden areas in this valley; I sometimes like to find a 
+nice, quiet spot to sit and gather my thoughts. This place has changed my life. 
+
+From meeting Virginia, to coming to understand what’s important in my life, I’m not the same man I was 
+first coming in here. Virginia taught me to see the beauty of the world, and now that my eyes are open I 
+see it everywhere.
+</value>
+	</data>
+	<data name="field_edwin_love_tw" xml:space="preserve">
+		<value>My beautiful Virginia,
+Thank you so much for the photograph, there’s nothing I love more than starting 
+each morning with a glimpse of your beautiful smile. I suppose I should return the 
+favor. Meet me near the training camp after dark tonight, tonight’s full moon should 
+offer some romantic lighting at the lakeshore.
+</value>
+	</data>
+	<data name="field_edwin_note1_tw" xml:space="preserve">
+		<value>Note from Edwin Hall:
+
+I’m taking Virginia up to the rooftop again tonight. Everything that’s going on with Pendulum… I need to 
+take her mind off of things. Since she doesn’t drink wine, I’ll see about sneaking some carbonated punch 
+up with us.
+</value>
+	</data>
+	<data name="field_edwin_pathfinders_tw" xml:space="preserve">
+		<value>Letter from Edwin Hall to Virginia King:
+
+The Landsharks are competing against the Raptors today. They’re fast, agile and a little overconfident 
+but I’m sure we can beat them. That all depends on how our new recruit holds up.  I hope you’ll be 
+cheering us on today.
+
+Wish me luck!
+</value>
+	</data>
+	<data name="field_pathfinder_pyramid_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+Pooled together, the Valkyries only have half as many medallions as we need to access the step 
+pyramid. I hear the Raptors are a good chunk of the way there. But my money’s on the 
+Landsharks being the first to enter it.
+
+</value>
+	</data>
+	<data name="field_player_cannibals" xml:space="preserve">
+		<value>Giant cannibals?</value>
+	</data>
+	<data name="field_player_cavein" xml:space="preserve">
+		<value>Looks like it's caved in...</value>
+	</data>
+	<data name="field_player_cavein2" xml:space="preserve">
+		<value>I'll have to find another way</value>
+	</data>
+	<data name="field_player_craters" xml:space="preserve">
+		<value>This must be where they started testing bombs</value>
+	</data>
+	<data name="field_player_leafsuit" xml:space="preserve">
+		<value>So no one had access to L.E.A.F. suits...</value>
+	</data>
+	<data name="field_player_wendigo" xml:space="preserve">
+		<value>Wendigos?</value>
+	</data>
+	<data name="field_virginia_ancients_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+By my calculations, the natives who inhabited this land vanished several centuries ago. What happened 
+to them? Where did they come from? Why did they come here? The soil is not ideal for agriculture. The 
+best I can reason is that this must have been sacred ground for them.
+</value>
+	</data>
+	<data name="field_virginia_aztecs_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+As baffling as these ancient ruins are, I see hints of other civilizations hiding within them. The Aztecs 
+believed that life came from the gods sacrificing themselves. They produced the sustenance that 
+nourishes life, and a great on-going sacrifice continues to sustain the universe. 
+
+They believed that everything springs from the severed bodies, limbs and heads of these sacrificed gods; 
+while humanity itself are those deserved and brought back to life through penance. It’s quite possible 
+we’re witnessing reflections of these beliefs here within the valley.
+</value>
+	</data>
+	<data name="field_virginia_collossus_vo" xml:space="preserve">
+		<value>April 24th, 1943 &lt;until 2.968&gt;
+What is the significance behind these
+colossal statues found throughout the valley? &lt;until 8.588&gt;
+I find they all look so very...voracious. &lt;until 13.238&gt;
+I keep returning to the idea of
+the mythical Si-Te-Cah, &lt;until 17.199&gt;
+the legendary tribe of cannibalistic giants
+that roamed North America &lt;until 21.129&gt;
+and came into conflict with the aboriginals.
+But why would they be worshipped here? &lt;until 26.473&gt;
+There must be something else to it… &lt;until 28.633&gt;</value>
+	</data>
+	<data name="field_virginia_edwinmeet_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+When Edwin and I met…it was nothing short of magical, and okay, pretty embarrassing too. So I was 
+hiking through the woods, searching for an ancient sunken village I suspected was nearby. I could see 
+something beneath the surface of this lake, and I climbed a tree to get a broader view (note to self, 
+don’t try to climb trees anymore). But upon nearing the top, I snapped a branch and plummeted 
+towards the ground. Thank goodness for Edwin, if he wasn’t passing by in just that moment… I think 
+owe him my life. 
+</value>
+	</data>
+	<data name="field_virginia_edwinmeet_vo" xml:space="preserve">
+		<value>//N/A Removed
+
+April 24th, 1943
+When Edwin and I met…it…it was nothing short of magical.
+I was hiking through the woods, 
+searching for an ancient sunken village I suspected was nearby and ventured into the Pathfinder training area.
+ I could see something beneath the surface of the lake, so I climbed a tree to get a broader view. 
+But upon nearing the top, I snapped a branch and plummeted towards the ground!
+ Thank goodness for Edwin- if he wasn’t passing by in just that moment… I owe him my life. 
+</value>
+	</data>
+	<data name="field_virginia_introspection_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+I’ve always found water to be so mesmerizing. Watching the currents flow, and the bubbles form.  What 
+better way to sit and reflect on my time here? I’ll certainly miss it when this is all over. I’ve changed so 
+much since I first arrived. Like Heraclitus said, “No man could walk through the same river twice, as the 
+man and the river have since changed.” And how true it is! Every day I am reborn, both physically and 
+mentally. It’s like we’re being constantly reincarnated, born out of this world the same way a wave  is 
+born out of the water, forming and dissipating back to its flow. These fleeting moments of life… it makes 
+me cherish these beautiful times, the warm sun bathing my skin and that wind moving across my body; 
+running through the grass, laughing.
+</value>
+	</data>
+	<data name="field_virginia_introspection_vo" xml:space="preserve">
+		<value>// N/A Removed
+
+I’ve always found water to be so mesmerizing. 
+Watching the currents flow, or the bubbles form. 
+What better way to sit and reflect on my time here? 
+I’ll certainly miss it when this is all over. 
+I’ve changed so much since I first arrived.
+ The things I’ve learned, the things I’ve seen. 
+The man I love.
+ Like Heraclitus said, “No man could walk through the same river twice, as the man and the river have since changed.” 
+And how true it is! Every day I am reborn, both physically and mentally!
+ It’s like we’re being consistently reincarnated,
+ born out of this world the same way a wave  is born out of the water,
+ forming and dissipating back to its flow.
+ These fleeting moments of life…
+ it makes me cherish these beautiful times: that warm sun bathing my skin and that wind moving across my body; 
+running through the grass, laughing! As the Romans say, what’s more important than to live, laugh…and love?</value>
+	</data>
+	<data name="field_virginia_nest_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+One thing that’s always perplexed me regarding the sprites is where exactly they go to sleep. Surely they 
+must have a den somewhere near here.  They’re incredibly hard to follow…if only Edwin would lend me 
+his L.E.A.F. suit. Who am I kidding? I can’t run half a mile, let alone half a valley.
+</value>
+	</data>
+	<data name="field_virginia_nest_vo" xml:space="preserve">
+		<value>//N/A Removed
+Virginia King, audio journal, June 4th 1941. 
+Shortly after the outbreak of war in Europe, I was enlisted by the army to study the history of this valley. 
+While the military is busy working on their research and development project,
+ I’ve been studying the anthropological history of this hidden place. 
+The little forest sprites seem to be the last living remnants of the long lost culture that once lived here. 
+Were they domesticated? What role do they play in the ecosystem?  
+A large number of them seem to inhabit the North-East sector of the valley, just past the ruins where the Lifeseed was found. 
+That’s as good a place of any to study them. 
+</value>
+	</data>
+	<data name="field_virginia_sacrifice_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+Like countless other civilizations, many Mesoamericans also believed in reincarnation. This meant no 
+body burning, as the body’s vital force must be preserved. The Aztecs believed that our hearts were a 
+fragment of the sun, a piece of the cosmos trapped within each of us.  Human sacrifice was seen as 
+repaying the debt of life owed back to the universe. Was that what they were doing here? A sacrificial 
+restitution to the earth?
+</value>
+	</data>
+	<data name="field_virginia_sacrifice_vo" xml:space="preserve">
+		<value>// N/A Removed
+
+Like countless other civilizations, many Mesoamericans also believed in reincarnation. 
+This meant no body burning, as the body’s vital force must be preserved. 
+The Aztecs believed that our hearts were a fragment of the sun, a piece of the cosmos trapped within each of us.  
+Human sacrifice was seen as repaying the debt of life owed back to the universe. 
+Was that what they were doing here? A sacrificial restitution to the earth? 
+The biggest sacrifice I’ve ever made was giving up ice cream.
+ I don’t think they would count that. </value>
+	</data>
+	<data name="field_virginia_treedoor_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+It seems the ancient tree doors operate through the fireflies that inhabit the nearby trees. When a tree 
+is infused with amrita, the fireflies appear to carry it to stones above the door, transferring the energy to 
+open the door for an indeterminable amount of time. The acorn doors operate similarly, as acorns 
+grown from trees in the valley possess traces of amrita. What causes all the trees, coniferous and 
+deciduous alike, to grow these acorns?
+</value>
+	</data>
+	<data name="field_virginia_wendigo_vo" xml:space="preserve">
+		<value>Virginia King, May 19th, 1943 &lt;until 4.485&gt;
+The Susurrians,
+much like other indigenous peoples, &lt;until 7.935&gt;
+seem to hold strong cultural value
+in legendary creatures; &lt;until 12.660&gt;
+the most notable one being
+the creature depicted on all these doorways. &lt;until 16.607&gt;
+It resembles the mythological ‘wendigo’, &lt;until 19.357&gt;
+a fierce creature with an insatiable desire
+to consume flesh. &lt;until 24.135&gt;
+The creature is most often linked with
+both greed and famine, &lt;until 28.080&gt;
+acting as a balance of nature. &lt;until 30.540&gt;
+Why would this creature hold such
+a strong cultural significance to them? &lt;until 35.115&gt;</value>
+	</data>
+	<data name="interact_lifeseed" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to take Lifeseed</value>
+	</data>
+	<data name="interact_thanatosgetin" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to enter turret.</value>
+	</data>
+	<data name="interactable_acorn" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up acorn</value>
+	</data>
+	<data name="interactable_acorn_bowl" xml:space="preserve">
+		<value>Sacrifice Acorn</value>
+	</data>
+	<data name="interactable_acorn_bowl_full" xml:space="preserve">
+		<value>Secondary Energy Full</value>
+	</data>
+	<data name="interactable_acorn_door" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to open doorway</value>
+	</data>
+	<data name="interactable_acorns" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up acorns</value>
+	</data>
+	<data name="interactable_amritapack" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to recharge 4 units of energy</value>
+	</data>
+	<data name="interactable_amritapack_full" xml:space="preserve">
+		<value>Energy is full</value>
+	</data>
+	<data name="interactable_audioreels" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up audio logs</value>
+	</data>
+	<data name="interactable_baydoors" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to open bay doors</value>
+	</data>
+	<data name="interactable_crate" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to open crate</value>
+	</data>
+	<data name="interactable_default" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to interact</value>
+	</data>
+	<data name="interactable_door" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to open door</value>
+	</data>
+	<data name="interactable_energyupgrade" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up energy upgrade</value>
+	</data>
+	<data name="interactable_enterthanatos" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to enter Thanatos cockpit</value>
+	</data>
+	<data name="interactable_firethanatos" xml:space="preserve">
+		<value>Press &lt;img take&gt; to fire Thanatos</value>
+	</data>
+	<data name="interactable_hookshot" xml:space="preserve">
+		<value>Hold &lt;img shoot&gt; to Viper Strike</value>
+	</data>
+	<data name="interactable_medallion" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up medallion</value>
+	</data>
+	<data name="interactable_musicbox" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to play music box</value>
+	</data>
+	<data name="interactable_nohookshot" xml:space="preserve">
+		<value>Requires Viper Coil</value>
+	</data>
+	<data name="interactable_nohookshotenergy" xml:space="preserve">
+		<value>Insufficient energy to hookshot</value>
+	</data>
+	<data name="interactable_photo" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up photo</value>
+	</data>
+	<data name="interactable_reactor" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to open reactor core</value>
+	</data>
+	<data name="interactable_relic_door" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to open doorway</value>
+	</data>
+	<data name="interactable_suit" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up L.E.A.F. suit</value>
+	</data>
+	<data name="interactable_suit_raptor" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up RAPTOR suit</value>
+	</data>
+	<data name="interactable_suitupgrade" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to pick up L.E.A.F. suit upgrade</value>
+	</data>
+	<data name="interaction_placelifeseed" xml:space="preserve">
+		<value>Press &lt;img interact&gt; to place Lifeseed</value>
+	</data>
+	<data name="intro_narrator_suitpickup" xml:space="preserve">
+		<value>  &lt;until 14.354&gt;
+Welcome to the Pathfinder program.  &lt;until 17.055&gt;
+As a Pathfinder, you will be tasked with operating
+and testing the newly developed L.E.A.F. suit, &lt;until 22.982&gt;
+as our hard working scientists at Pendulum develop
+new ways to empower our troops&lt;until 27.524&gt;
+fighting the war in Europe. &lt;until 30.332&gt;
+With the power of the L.E.A.F. suit,
+you will be able to perform unimaginable feats! &lt;until 36.110&gt;
+Leaping high into the air, &lt;until 39.811&gt;
+sprinting as quickly as a cheetah, &lt;until 43.881&gt;
+even manipulating life and death itself &lt;until 45.894&gt;
+are all part of the many stunts
+accomplished by the L.E.A.F. suit. &lt;until 50.998&gt;
+In addition to these marvelous wonders, an audio
+reel recorder built directly into the suit &lt;until 56.068&gt;
+allows a Pathfinder to conveniently listen to
+important intelligence hands free during &lt;until 61.258&gt;
+training exercises. And don’t forget to keep an
+ear out for new upgrades available for your suit, &lt;until 67.728&gt;
+as our scientists continue looking for new ways to
+improve the fearsome might of the L.E.A.F. suit! &lt;until 74.418&gt;
+Good luck and safe journey as you test
+the limits of this amazing new technology! &lt;until 82.068&gt;</value>
+	</data>
+	<data name="intro_pathfinder_note_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+I could watch these sprites all day. I can’t believe how friendly they are; brave enough to come right up 
+to us. I guess they have no reason to fear us; we aren’t natural predators to them at all.
+</value>
+	</data>
+	<data name="intro_pathfiner_raptorsuit_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+It's taken a while, but we finally finished our own Raptor design of the L.E.A.F. suit. If anyone finds out 
+we commandeered a spare suit and altered it outside the military-approved colors, they'll have our necks!
+We'll keep it hidden away from the top brass and sneak it out once we're sent back home. </value>
+	</data>
+	<data name="intro_player_canoe" xml:space="preserve">
+		<value>Useless discount canoeing lessons...</value>
+	</data>
+	<data name="intro_player_exists" xml:space="preserve">
+		<value>The Lifeseed actually exists!</value>
+	</data>
+	<data name="intro_player_fireflies" xml:space="preserve">
+		<value>Seems like these fireflies react to energy...</value>
+	</data>
+	<data name="intro_player_lyfeseid" xml:space="preserve">
+		<value>Could they have used the Lifeseed?</value>
+	</data>
+	<data name="intro_player_monologue_vo" xml:space="preserve">
+		<value>- &lt;until 1.900&gt;
+Hey, looks like I missed you. &lt;until 3.960&gt;
+I just wanted to wish you
+luck before you headed out. &lt;until 6.408&gt;
+I still can’t believe you’re doing this-
+I mean, hunting down the…what was it? &lt;until 10.227&gt;
+The “Lifeseed”? &lt;until 11.680&gt;
+You gotta admit that sounds crazy!
+I mean, even if this mythological thing &lt;until 15.630&gt;
+that can shatter worlds,
+or whatever,  actually exists, &lt;until 18.980&gt;
+what are the chances of you
+tracking down this ancient relic &lt;until 21.360&gt;
+in the middle of the Rocky Mountains? &lt;until 23.499&gt;
+Listen, I know you wanna prove
+the thing exists, I get that. &lt;until 26.573&gt;
+It’s an adventure. Hell, it’s your career. &lt;until 28.632&gt;
+But can’t you do something normal like the rest
+of us and just backpack Europe or something? &lt;until 33.419&gt;
+Spend a month in Thailand? But hey,
+if by some miracle you find this thing &lt;until 38.021&gt;
+and become the most 
+famous archeologist of all time- &lt;until 41.049&gt;
+beers are on me. I'll even trade
+in your tin foil hat for a whip and fedora. &lt;until 45.657&gt;
+I just really hope all those
+canoeing lessons pay off. &lt;until 49.392&gt;</value>
+	</data>
+	<data name="intro_player_orbs" xml:space="preserve">
+		<value>What is this place?</value>
+	</data>
+	<data name="intro_player_recordings" xml:space="preserve">
+		<value>Let's see what's on these old audio reels...</value>
+	</data>
+	<data name="intro_player_ruins" xml:space="preserve">
+		<value>Where the hell am I?</value>
+	</data>
+	<data name="intro_player_ruins2" xml:space="preserve">
+		<value>Ruins? Cave drawings?</value>
+	</data>
+	<data name="intro_player_ruins3" xml:space="preserve">
+		<value>Whoa...</value>
+	</data>
+	<data name="intro_player_sprites" xml:space="preserve">
+		<value>How hard did I hit my head?</value>
+	</data>
+	<data name="intro_player_sprites2" xml:space="preserve">
+		<value>kinda weird...</value>
+	</data>
+	<data name="intro_player_suit" xml:space="preserve">
+		<value>Cool, L.E.A.F. suit huh?</value>
+	</data>
+	<data name="intro_player_truck" xml:space="preserve">
+		<value>An old army truck...</value>
+	</data>
+	<data name="intro_player_truck2" xml:space="preserve">
+		<value>...must have crashed here ages ago</value>
+	</data>
+	<data name="intro_player_truck3" xml:space="preserve">
+		<value>Looks like a mechanical suit...</value>
+	</data>
+	<data name="intro_radio_weather_vo" xml:space="preserve">
+		<value>//N/A Removed
+Gonna be another beautiful day out there, just remember to be careful out on those choppy waters. 
+We’re looking at warm temperatures for most of the day, so pack some sunscreen. 
+And here’s to another reminder to keep bear spray on you at all times out there…
+</value>
+	</data>
+	<data name="intro_virginia_digsite_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+October 15th, 1944
+The North-East dig site is providing a number of clues towards the stonecutting techniques of the 
+ancient inhabitants. The Pathfinders assigned to exploring the site have uncovered a wide array of tools 
+that may have been used. With any luck, we can attempt to reproduce the methodology.
+</value>
+	</data>
+	<data name="intro_virginia_logs_tw" xml:space="preserve">
+		<value>A page from Virginia King’s logbook:
+
+Table of Contents:
+
+Titan Tree
+Lifeseed
+Obelisks
+Sussurian Step Pyramid
+Environmental Impact of Military Activity
+Daemon Behavior
+</value>
+	</data>
+	<data name="Intro_virginia_suit_vo" xml:space="preserve">
+		<value>- &lt;until 4.125&gt;
+Virginia King, audio journal, June 4th 1941.
+Shortly after the outbreak of war in Europe, &lt;until 12.548&gt;
+I was enlisted by the army to study
+the history of this valley. &lt;until 16.593&gt;
+The mysterious forest sprites seem to be the last
+living remnants of the long lost culture &lt;until 21.160&gt;
+that once lived here.
+A large number of them seem to inhabit &lt;until 25.260&gt;
+the North-East sector of the valley,
+just past the ruins where the Lifeseed, &lt;until 30.174&gt;
+rumored to possess an
+Earth-shattering power, was found. &lt;until 35.745&gt;
+That’s as good a place of any to study them. &lt;until 38.784&gt;</value>
+	</data>
+	<data name="Intro_virginia_suit2_vo" xml:space="preserve">
+		<value>The army calls this valley Area 634,
+but I’ve ascribed a new word for it: &lt;until 7.059&gt;
+Susurrus. &lt;until 9.225&gt;
+The beauty of that word seems to rival
+the majesty of this place. &lt;until 13.665&gt;
+I suppose that would make its ancient 
+inhabitants officially known as ‘Susurrians’! &lt;until 20.147&gt;
+To think these ruins have existed here
+for so long… &lt;until 23.955&gt;
+they predate any known civilization
+on the continent, &lt;until 27.874&gt;
+They seem to have infused the life energy
+from trees into their infrastructure, but how? &lt;until 33.974&gt;</value>
+	</data>
+	<data name="Intro_virginia_suit3_vo" xml:space="preserve">
+		<value>Luckily for me, the military is
+helping to explore all these ruins &lt;until 4.183&gt;
+through the soldiers piloting L.E.A.F. suits.
+They call these soldiers ‘Pathfinders’ &lt;until 8.623&gt;
+as they can trek through terrain
+normally inaccessible to someone like me. &lt;until 13.017&gt;
+Every guy back home is going to want
+to go joyriding in a L.E.A.F. suit; but until &lt;until 18.044&gt;
+the military’s project comes to a close,
+we’re cut off from any contact outside the valley. &lt;until 23.175&gt;
+I guess the world will have to wait just
+a bit longer to get their hands on these rides. &lt;until 27.660&gt;</value>
+	</data>
+	<data name="intro_virginia_titan" xml:space="preserve">
+		<value>&lt;font&gt;PWsignaturefont&lt;/font&gt;&lt;size=10&gt;&lt;#000000&gt;Titans 
+\t &lt;b&gt;Titans&lt;/b&gt; are the &lt;u&gt;names&lt;/u&gt; assigned to the giant trees located throughout the &lt;i&gt;valley&lt;/i&gt;.  All of which are surrounded by a similar type of circular ruins, as though they were worshipped by the ancients of the valley.&lt;/size&gt;&lt;/color&gt;&lt;font&gt;veteran typewriter&lt;/font&gt;&lt;size=10&gt;&lt;#000000&gt;Pathfinder 
+\t &lt;b&gt;Pathfinders&lt;/b&gt; is a designation assigned to soldiers piloting L.E.A.F. suits. &lt;/size&gt;&lt;/color&gt;</value>
+	</data>
+	<data name="intro_worker_cargomanifest_tw" xml:space="preserve">
+		<value>Cargo manifest - July 29th, 1945
+
+The following items are to be stored securely at the sector 6 storage and handling facility.
+
+- 1 L.E.A.F. suit belonging to Private First Class Edwin Hall
+- 20 audio recording reels belonging to Virginia King
+- 3 bundles of documentation
+</value>
+	</data>
+	<data name="lake_pathfinder_astra_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+Since the production ramp up, only Pathfinders or approved personnel with emergency life extraction 
+vests are allowed near the Astra facility. This kind of unstable technology is frightening. We’re putting 
+a lot of faith in those scientists that they know what they’re doing. The fact we can barely keep up the 
+orb input it demands is terrifying, do we really need to rush production this much?
+</value>
+	</data>
+	<data name="lake_pathfinder_pyramid1_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+I can’t believe we’re the first squad to collect enough medallions to get inside this place! The Landsharks 
+can eat it! To be fair, we owe a lot of it to these weird prototype upgrades we were ordered to test out. 
+We should make this pyramid our new base camp. This magical fires in here spook me a little though. 
+</value>
+	</data>
+	<data name="lake_pathfinder_pyramid2_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+I can’t wait to get home to my girlfriend. Assuming she’s still my girlfriend… 
+I wish I could just get a letter out to her or something, let her know I’m ok and not to mention all the 
+spectacular things I’m seeing out here. Wait until she gets a look at me in my L.E.A.F. suit!
+</value>
+	</data>
+	<data name="lake_player_astra" xml:space="preserve">
+		<value>So this is the Astra facility</value>
+	</data>
+	<data name="lake_player_killing" xml:space="preserve">
+		<value>It's killing everything...</value>
+	</data>
+	<data name="lake_player_waterrun" xml:space="preserve">
+		<value>Like skipping a rock across water...</value>
+	</data>
+	<data name="lake_player_waterrun 2" xml:space="preserve">
+		<value>I got this</value>
+	</data>
+	<data name="lake_virginia_architecture_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+The sheer amount of effort the Sussurians put into constructing these architectural marvels is 
+astonishing, it’s a bit hard to understand sometimes. They had clearly grasped forms of advanced 
+mathematics to be able to construct such structures. How long did it take them? How large of a 
+population was sustained here? It would have to be in the thousands.
+</value>
+	</data>
+	<data name="lake_virginia_pyramid_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+What purpose did this pyramid serve? The most likely answer is that it acted as a sacred altar. Sacrifice 
+rituals may have been performed at the summit of the structure. I would love to get inside, but I’d 
+rather not damage the pyramid by forcing a way in. I suppose I’ll wait on the Pathfinders, who seem to 
+have made a competition out of it, to gather enough medallions. These guys make a competition out of 
+everything.
+</value>
+	</data>
+	<data name="lake_virginia_pyramid_vo" xml:space="preserve">
+		<value>The pyramid built by the Susurrians served as
+a ceremonial structure exalting the colossi. &lt;until 7.100&gt;
+Along with the Titan Tree and daemons,
+they intertwine to form a mythology. &lt;until 13.630&gt;
+From what I gathered, &lt;until 15.085&gt;
+the colossi were once humans
+who feasted upon the forbidden fruit, &lt;until 19.220&gt;
+corrupting them into giant monstrosities- &lt;until 22.520&gt;
+cannibalizing their fellow man
+and devouring all life within the valley. &lt;until 28.020&gt;
+Is this a tale of caution? &lt;until 30.550&gt;
+Are the Susurrians warning us
+against abusing the power of the Lifeseed? &lt;until 34.700&gt;</value>
+	</data>
+	<data name="lake_virginia_pyramid2_vo" xml:space="preserve">
+		<value>While it’s no surprise that Sussurian lore
+revolves around the fruit of a sacred tree, &lt;until 5.760&gt;
+a common trope in mythologies, I’m most
+surprised by how the daemons fit into the lore- &lt;until 12.618&gt;
+apparently considered wardens of the valley, &lt;until 15.440&gt;
+charged with returning stolen
+life back to the valley. &lt;until 18.872&gt;
+That’s a pretty great burden for such little guys. &lt;until 22.590&gt;</value>
+	</data>
+	<data name="lake_virginia_wendigo_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+Wendigo mythology is utterly fascinating. Not only do they reflect famine and harsh winters, but also 
+greed and gluttony. Sometimes, even humans overcome with greed could turn into a wendigo, doomed 
+to feast upon the flesh of man for the rest of their lives, never feeling satiated.
+
+Sometimes they are depicted as ever-growing as they consume more and more flesh. Uhhh... will I sleep
+tonight? Just a myth Virginia, just a myth…
+</value>
+	</data>
+	<data name="loadscreen_lvl1" xml:space="preserve">
+		<value>The Lifeseed is said to contain an incredible, Earth-shattering power. While mostly written off as myth, some archeologists are still determined to track down the elusive item, luring some to incredibly remote locations. </value>
+	</data>
+	<data name="loadscreen_lvl2" xml:space="preserve">
+		<value>Soldiers piloting L.E.A.F. suits (Leap Effortlessly through Air Functionality) are known as Pathfinders. Their ability to manipulate life, with running speeds up to 110 km/h, makes them a deadly addition to the battlefield.</value>
+	</data>
+	<data name="loadscreen_lvl3" xml:space="preserve">
+		<value>When a Pathfinder dies while wearing a L.E.A.F. suit, they are revived at the cost of other nearby living things. This exciting yet dangerous functionality is known as ‘Quantum Immortality’.</value>
+	</data>
+	<data name="loadscreen_lvl4" xml:space="preserve">
+		<value>The Lifeseed found within the valley, produced once every thousand years from the so-called Titan Tree, has been confiscated by the military and taken to the Soma Facility for scientific purposes. </value>
+	</data>
+	<data name="loadscreen_lvl4b" xml:space="preserve">
+		<value>The orbs that grow within the valley yield vast deposits of energy. Pendulum aims to win the war by harnessing this energy using the Lifeseed. Bombs created using this energy have the potential to destroy entire cities.</value>
+	</data>
+	<data name="loadscreen_lvl5" xml:space="preserve">
+		<value>Pendulum’s bombs rely on Astra’s link with Soma. The Astra extractor pulls in energy, typically from orbs, to deliver to Soma, while the Soma reactor amplifies the energy and sends it back to Astra for weapon creation. </value>
+	</data>
+	<data name="loadscreen_lvl6" xml:space="preserve">
+		<value>A member of the Pathfinder division and an on-site anthropologist have been exposed as traitors. During a covert attempt to destroy Astra, security personnel caught the culprits amid the act and placed them under arrest. </value>
+	</data>
+	<data name="loadscreen_lvl7" xml:space="preserve">
+		<value>As the Astra facility increases output, the orbs can no longer keep pace. As such, energy will often be pulled from its surroundings. Only those equipped with L.E.A.F. suits may venture near during increased production. </value>
+	</data>
+	<data name="loadscreen_lvl7b" xml:space="preserve">
+		<value>In case of emergency, measures are in place to contain any core meltdowns within the Astra Facility. Pumping stations will continuously divert water from the lake into Astra until the core cools, averting fallout. </value>
+	</data>
+	<data name="loadscreen_tooltip1" xml:space="preserve">
+		<value>Amrita Swarms are composed of amrita-consuming mosquitoes indigenous to the valley. When starved of amrita, the swarms become extremely aggressive. </value>
+	</data>
+	<data name="loadscreen_tooltip10" xml:space="preserve">
+		<value>Pathfinders explore the valley in squads of 3, each with a designated captain. 5 squads have been assembled and engage in competitions to truly test out the full potential of L.E.A.F. technology in the field. </value>
+	</data>
+	<data name="loadscreen_tooltip11" xml:space="preserve">
+		<value>The act of ‘Quantum Death’ is a difficult concept to fathom without experiencing it first hand, as the phenomenon is only experienced by the user’s consciousness traveling through parallel worlds. </value>
+	</data>
+	<data name="loadscreen_tooltip12" xml:space="preserve">
+		<value>The L.E.A.F. suit has been designed to have its parts easily replaced to upgrade the exoskeleton as needed. This allows Pathfinders to adapt quickly to a wide array of challenges. </value>
+	</data>
+	<data name="loadscreen_tooltip2" xml:space="preserve">
+		<value>The vast and treacherous terrain of the remote regions of the Rocky Mountains proves ideal for covert use. With no inhabitants within hundreds of miles, there is little chance of discovery. </value>
+	</data>
+	<data name="loadscreen_tooltip3" xml:space="preserve">
+		<value>The Titan Tree found within the valley produces a so-called “Lifeseed” once every thousand years. It is believed the ancient inhabitants of the valley may have worshipped the tree for this reason. </value>
+	</data>
+	<data name="loadscreen_tooltip4" xml:space="preserve">
+		<value>The valley, known formally as Area 634 to the military, has been ascribed the name “Susurrus” by the anthropological department. </value>
+	</data>
+	<data name="loadscreen_tooltip5" xml:space="preserve">
+		<value>Energy Capacitor Upgrades are incredibly useful for Pathfinders venturing on long expeditions. As such, a large number of capacitors have been inventoried and distributed throughout the site. </value>
+	</data>
+	<data name="loadscreen_tooltip6" xml:space="preserve">
+		<value>The ancient inhabitants of the valley appear to have learned to manipulate amrita energy, by using trees themselves to operate heavy stone doorways.</value>
+	</data>
+	<data name="loadscreen_tooltip7" xml:space="preserve">
+		<value>At just 17 square kilometers, the size of the valley itself is considerably small, particularly in the remote regions of the Rocky Mountains which can stretch for thousands of kilometers. </value>
+	</data>
+	<data name="loadscreen_tooltip8" xml:space="preserve">
+		<value>An extinction event in the late Pleistocene period resulted in the disappearance of many large mammals and megafauna in North America. Some believe the epicenter of the extinction can be traced to Area 634.</value>
+	</data>
+	<data name="loadscreen_tooltip9" xml:space="preserve">
+		<value>The origin of the forest sprites, known as daemons, is unknown to Area 634 researchers. Oddly, their biological make-up appears close to both jellyfish and mammals.</value>
+	</data>
+	<data name="loop1" xml:space="preserve">
+		<value>Loop 1</value>
+	</data>
+	<data name="loop2" xml:space="preserve">
+		<value>Loop 2</value>
+	</data>
+	<data name="loop3" xml:space="preserve">
+		<value>Loop 3</value>
+	</data>
+	<data name="male_voice_selection" xml:space="preserve">
+		<value>Male</value>
+	</data>
+	<data name="map_astra_facility" xml:space="preserve">
+		<value>Astra Facility</value>
+	</data>
+	<data name="map_camp_henday" xml:space="preserve">
+		<value>Camp Henday</value>
+	</data>
+	<data name="map_fields_of_providence" xml:space="preserve">
+		<value>Proving Grounds</value>
+	</data>
+	<data name="map_select_travel_location" xml:space="preserve">
+		<value>Selecione o Local de Viagem</value>
+	</data>
+	<data name="map_smoke_lake" xml:space="preserve">
+		<value>Smoke Lake</value>
+	</data>
+	<data name="map_soma_facility" xml:space="preserve">
+		<value>Soma Facility</value>
+	</data>
+	<data name="map_soma_reactor" xml:space="preserve">
+		<value>Soma Reactor</value>
+	</data>
+	<data name="map_sussurus_valley" xml:space="preserve">
+		<value>Sussurus Valley</value>
+	</data>
+	<data name="map_titan_rock" xml:space="preserve">
+		<value>Titan Rock</value>
+	</data>
+	<data name="map_wendigo_lake" xml:space="preserve">
+		<value>Wendigo Lake</value>
+	</data>
+	<data name="medallions" xml:space="preserve">
+		<value>medallions</value>
+	</data>
+	<data name="menu_achievements" xml:space="preserve">
+		<value>Achievements</value>
+	</data>
+	<data name="menu_change_slot" xml:space="preserve">
+		<value>Trocar Slot</value>
+	</data>
+	<data name="menu_continue" xml:space="preserve">
+		<value>Continue</value>
+	</data>
+	<data name="menu_controller_change" xml:space="preserve">
+		<value>Controller Change Detected</value>
+	</data>
+	<data name="menu_controller_changeok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="menu_controller_disconnect" xml:space="preserve">
+		<value>Controller Disconnected</value>
+	</data>
+	<data name="menu_controller_ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="menu_controller_pleaseconnect" xml:space="preserve">
+		<value>Your controller was disconnected!
+Please reconnect your controller and press 'X'</value>
+	</data>
+	<data name="menu_controller_user" xml:space="preserve">
+		<value>A new controller has been detected that is not associated with the current user.
+Hold your 'PS' button and select 'Switch User' to assign the desired user to this controller. </value>
+	</data>
+	<data name="menu_delete_areyousure" xml:space="preserve">
+		<value>Delete Save Slot</value>
+	</data>
+	<data name="menu_delete_confirmation" xml:space="preserve">
+		<value>Are you sure you want to delete this save slot?</value>
+	</data>
+	<data name="menu_exit" xml:space="preserve">
+		<value>Sair do Jogo</value>
+	</data>
+	<data name="menu_main_areyousure" xml:space="preserve">
+		<value>Tem certeza que quer retornar ao menu principal?</value>
+	</data>
+	<data name="menu_main_cancel" xml:space="preserve">
+		<value>Cancelar</value>
+	</data>
+	<data name="menu_main_gotomenu" xml:space="preserve">
+		<value>Retornar</value>
+	</data>
+	<data name="menu_main_return" xml:space="preserve">
+		<value>Retornar para o Menu Principal</value>
+	</data>
+	<data name="menu_new_game" xml:space="preserve">
+		<value>Novo Jogo</value>
+	</data>
+	<data name="menu_options" xml:space="preserve">
+		<value>Opções</value>
+	</data>
+	<data name="menu_quit_areyousure" xml:space="preserve">
+		<value>Tem certeza que quer sair?</value>
+	</data>
+	<data name="menu_quit_cancel" xml:space="preserve">
+		<value>Cancelar</value>
+	</data>
+	<data name="menu_quit_confirmation" xml:space="preserve">
+		<value>Confirmação de Saída</value>
+	</data>
+	<data name="menu_quit_quit" xml:space="preserve">
+		<value>Sair</value>
+	</data>
+	<data name="menu_switchprofile" xml:space="preserve">
+		<value>Alterar Perfil</value>
+	</data>
+	<data name="menu_xboxhelp" xml:space="preserve">
+		<value>Xbox Help</value>
+	</data>
+	<data name="objective_generic" xml:space="preserve">
+		<value>Explore area to discover all secrets</value>
+	</data>
+	<data name="objective_lvl1_acorns" xml:space="preserve">
+		<value>Gather enough acorns to open doorway</value>
+	</data>
+	<data name="objective_lvl1_explorearea" xml:space="preserve">
+		<value>Explore the area</value>
+	</data>
+	<data name="objective_lvl1_explorevalley" xml:space="preserve">
+		<value>Use the L.E.A.F. suit to explore the valley</value>
+	</data>
+	<data name="objective_lvl1_ruins" xml:space="preserve">
+		<value>Find a way through the ancient ruins</value>
+	</data>
+	<data name="objective_lvl1_searchcivilization" xml:space="preserve">
+		<value>Search for the Lifeseed near the digsite</value>
+	</data>
+	<data name="objective_lvl2_altars" xml:space="preserve">
+		<value>Follow the Titan Tree's roots to activate all of the obelisks</value>
+	</data>
+	<data name="objective_lvl2_caves" xml:space="preserve">
+		<value>Search for Lifeseed's whereabouts</value>
+	</data>
+	<data name="objective_lvl2_explorevalley" xml:space="preserve">
+		<value>Explore the valley</value>
+	</data>
+	<data name="objective_lvl2_mountainfacility" xml:space="preserve">
+		<value>Find a way to get to the Soma Facility atop the mountain</value>
+	</data>
+	<data name="objective_lvl2_obelisk1" xml:space="preserve">
+		<value>Activate remaining 2 obelisks</value>
+	</data>
+	<data name="objective_lvl2_obelisk2" xml:space="preserve">
+		<value>Activate final obelisk</value>
+	</data>
+	<data name="objective_lvl2_returntitan" xml:space="preserve">
+		<value>Return to explore the Titan Tree</value>
+	</data>
+	<data name="objective_lvl2_searchcivilization" xml:space="preserve">
+		<value>Continue search for Lifeseed</value>
+	</data>
+	<data name="objective_lvl3_elevatorshaft_1" xml:space="preserve">
+		<value>Break through cracked surface from a high drop</value>
+	</data>
+	<data name="objective_lvl3_elevatorshaft_2" xml:space="preserve">
+		<value>Explore elevator shaft</value>
+	</data>
+	<data name="objective_lvl3_getinside" xml:space="preserve">
+		<value>Find a way inside the abandoned facility</value>
+	</data>
+	<data name="objective_lvl3_mountainfacility" xml:space="preserve">
+		<value>Get to the Soma Facility atop the mountain</value>
+	</data>
+	<data name="objective_lvl3_mountainfacility2" xml:space="preserve">
+		<value>Continue journey to reach mountaintop facility</value>
+	</data>
+	<data name="objective_lvl4_cargo" xml:space="preserve">
+		<value>Use crane to move cargo off hatch door and enter utility tunnel</value>
+	</data>
+	<data name="objective_lvl4_crane" xml:space="preserve">
+		<value>Activate crane</value>
+	</data>
+	<data name="objective_lvl4_escapefacility" xml:space="preserve">
+		<value>Escape Soma facility</value>
+	</data>
+	<data name="objective_lvl4_explorefacility" xml:space="preserve">
+		<value>Explore facility in search of Lifeseed</value>
+	</data>
+	<data name="objective_lvl4_gettoreactor" xml:space="preserve">
+		<value>Get to the reactor deep within the mountain</value>
+	</data>
+	<data name="objective_lvl4_hatch" xml:space="preserve">
+		<value>Open utility tunnel hatch</value>
+	</data>
+	<data name="objective_lvl4_lifeseed" xml:space="preserve">
+		<value>Retrieve the Lifeseed from within the reactor</value>
+	</data>
+	<data name="objective_lvl4_reactor" xml:space="preserve">
+		<value>Find a way to the reactor beneath the facility</value>
+	</data>
+	<data name="objective_lvl4_tunnel" xml:space="preserve">
+		<value>Enter utility tunnel</value>
+	</data>
+	<data name="objective_lvl4_vent" xml:space="preserve">
+		<value>Enter ventilation shaft previsouly obstructed by crane</value>
+	</data>
+	<data name="objective_lvl5_bombplot" xml:space="preserve">
+		<value>Bring peace back to the valley by destroying the Soma reactor</value>
+	</data>
+	<data name="objective_lvl5_continue" xml:space="preserve">
+		<value>Continue exploring townsite in search of tram access</value>
+	</data>
+	<data name="objective_lvl5_crackedfloor" xml:space="preserve">
+		<value>Break through the cracked surface near the control tower</value>
+	</data>
+	<data name="objective_lvl5_destroy" xml:space="preserve">
+		<value>Find a way to shut down the destabilized Astra facility</value>
+	</data>
+	<data name="objective_lvl5_digsite" xml:space="preserve">
+		<value>Explore archeological dig site</value>
+	</data>
+	<data name="objective_lvl5_explorearea" xml:space="preserve">
+		<value>Explore area</value>
+	</data>
+	<data name="objective_lvl5_exploretown" xml:space="preserve">
+		<value>Explore townsite for a way to reach the Astra Facility</value>
+	</data>
+	<data name="objective_lvl5_findtram" xml:space="preserve">
+		<value>Find tram tunnel leading to the Astra weapons facility</value>
+	</data>
+	<data name="objective_lvl5_gettofacility" xml:space="preserve">
+		<value>Get to the Astra weapons facility</value>
+	</data>
+	<data name="objective_lvl5_investigate" xml:space="preserve">
+		<value>Investigate Astra Facility</value>
+	</data>
+	<data name="objective_lvl5_tipple" xml:space="preserve">
+		<value>Explore the train loading dock building</value>
+	</data>
+	<data name="objective_lvl5_tram" xml:space="preserve">
+		<value>Find a way to access tram tunnel</value>
+	</data>
+	<data name="objective_lvl6_altars" xml:space="preserve">
+		<value>Activate all the tree altars</value>
+	</data>
+	<data name="objective_lvl6_continueastra" xml:space="preserve">
+		<value>Continue journey towards Astra</value>
+	</data>
+	<data name="objective_lvl6_forest" xml:space="preserve">
+		<value>Navigate your way through the Pathfinder training forest</value>
+	</data>
+	<data name="objective_lvl6_forest2" xml:space="preserve">
+		<value>Navigate your way through the Pathfinder training forest</value>
+	</data>
+	<data name="objective_lvl6_forest3" xml:space="preserve">
+		<value>Navigate your way through the Pathfinder training forest</value>
+	</data>
+	<data name="objective_lvl6_getinside" xml:space="preserve">
+		<value>Find a way to break through cracked floor surface</value>
+	</data>
+	<data name="objective_lvl6_gettofacility" xml:space="preserve">
+		<value>Follow tram tunnel to the Astra weapons facility</value>
+	</data>
+	<data name="objective_lvl6_weaponfacility" xml:space="preserve">
+		<value>Find a way to the Astra weapons facility</value>
+	</data>
+	<data name="objective_lvl7_activatebomb" xml:space="preserve">
+		<value>Send bomb down tram towards the Soma reactor by releasing emergency locks</value>
+	</data>
+	<data name="objective_lvl7_cave" xml:space="preserve">
+		<value>Find a way out of the cave</value>
+	</data>
+	<data name="objective_lvl7_continue" xml:space="preserve">
+		<value>Continue search for way to shut down Astra</value>
+	</data>
+	<data name="objective_lvl7_escape" xml:space="preserve">
+		<value>Escape facility before total meltdown</value>
+	</data>
+	<data name="objective_lvl7_explore" xml:space="preserve">
+		<value>Venture further into the Astra facility</value>
+	</data>
+	<data name="objective_lvl7_explorefacility" xml:space="preserve">
+		<value>Explore the facility</value>
+	</data>
+	<data name="objective_lvl7_findbomb" xml:space="preserve">
+		<value>Find and activate bomb in the weapons room</value>
+	</data>
+	<data name="objective_lvl7_firesoma" xml:space="preserve">
+		<value>Fire Thanatos towards the Soma energy reservoirs</value>
+	</data>
+	<data name="objective_lvl7_getinside" xml:space="preserve">
+		<value>Find a way to get inside the Astra facility</value>
+	</data>
+	<data name="objective_lvl7_gettofacility" xml:space="preserve">
+		<value>Get to the Astra facility</value>
+	</data>
+	<data name="objective_lvl7_shutdown" xml:space="preserve">
+		<value>Find a way to shut down the destabilized Astra facility</value>
+	</data>
+	<data name="objective_lvl7_thanatos" xml:space="preserve">
+		<value>Create a feedback loop between Astra and Soma using Thanatos</value>
+	</data>
+	<data name="objective_updated" xml:space="preserve">
+		<value>Quest Updated!</value>
+	</data>
+	<data name="pause_menu_main_menu" xml:space="preserve">
+		<value>Main Menu</value>
+	</data>
+	<data name="pause_menu_options" xml:space="preserve">
+		<value>Options</value>
+	</data>
+	<data name="pause_menu_quit" xml:space="preserve">
+		<value>Quit</value>
+	</data>
+	<data name="pause_menu_return" xml:space="preserve">
+		<value>Return</value>
+	</data>
+	<data name="pause_menu_travel" xml:space="preserve">
+		<value>Travel</value>
+	</data>
+	<data name="prompt_acorns" xml:space="preserve">
+		<value>Collect and use acorns to open certain ancient doors.</value>
+	</data>
+	<data name="prompt_crackedsurface" xml:space="preserve">
+		<value>Use falling momentum to break through cracked surfaces</value>
+	</data>
+	<data name="prompt_crackedsurface2" xml:space="preserve">
+		<value>Forward momentum can also be used to break through cracked surfaces</value>
+	</data>
+	<data name="prompt_crate" xml:space="preserve">
+		<value>Use &lt;img interact&gt; to open crates</value>
+	</data>
+	<data name="prompt_doublejump" xml:space="preserve">
+		<value>Press &lt;img jump&gt; to jump a second time in the air</value>
+	</data>
+	<data name="prompt_entercannon" xml:space="preserve">
+		<value>Use &lt;img interact&gt; to enter Thanatos Cannon</value>
+	</data>
+	<data name="prompt_forwardmomentum" xml:space="preserve">
+		<value>Hold &lt;img run&gt; and run down slope for maximum momentum</value>
+	</data>
+	<data name="prompt_generator" xml:space="preserve">
+		<value>Use &lt;img shoot&gt; to activate generators with amrita energy</value>
+	</data>
+	<data name="prompt_givelife" xml:space="preserve">
+		<value>Use &lt;img shoot&gt; to shoot life energy towards dead trees or animals</value>
+	</data>
+	<data name="prompt_givelife1" xml:space="preserve">
+		<value>Give life back to dead plants or animals to revitalize the valley</value>
+	</data>
+	<data name="prompt_interact" xml:space="preserve">
+		<value>Use &lt;img interact&gt; to interact with highlighted objects</value>
+	</data>
+	<data name="prompt_jump" xml:space="preserve">
+		<value>Press &lt;img jump&gt; to jump</value>
+	</data>
+	<data name="prompt_lowenergy" xml:space="preserve">
+		<value>Energy Low</value>
+	</data>
+	<data name="prompt_momentum" xml:space="preserve">
+		<value>Use forward momentum to break through cracked walls</value>
+	</data>
+	<data name="prompt_noenergy" xml:space="preserve">
+		<value>Out Of Energy</value>
+	</data>
+	<data name="prompt_orb" xml:space="preserve">
+		<value>Touch an orb to absorb its energy</value>
+	</data>
+	<data name="prompt_pleasewait" xml:space="preserve">
+		<value>Please Wait...</value>
+	</data>
+	<data name="prompt_run" xml:space="preserve">
+		<value>Hold &lt;img run&gt; to run</value>
+	</data>
+	<data name="prompt_runjump" xml:space="preserve">
+		<value>Hold &lt;img run&gt; to run and  jump</value>
+	</data>
+	<data name="prompt_somaswarm" xml:space="preserve">
+		<value>Once pacified, pass through the swarm to regain amrita.</value>
+	</data>
+	<data name="prompt_speedtrack" xml:space="preserve">
+		<value>Run on the rail to travel faster. 
+Your energy will recharge from the tracks. </value>
+	</data>
+	<data name="prompt_storagecell" xml:space="preserve">
+		<value>Use &lt;img take&gt; on Storage Cells to take energy</value>
+	</data>
+	<data name="prompt_takelife" xml:space="preserve">
+		<value>Use &lt;img take&gt; to take life</value>
+	</data>
+	<data name="prompt_treedoor" xml:space="preserve">
+		<value>Use &lt;img shoot&gt; to give life to trees</value>
+	</data>
+	<data name="prompt_turret" xml:space="preserve">
+		<value>Move Left and Right to aim the Thanatos Cannon.</value>
+	</data>
+	<data name="prompt_vipercoil" xml:space="preserve">
+		<value>Press &lt;img shoot&gt; and hold while targeting a deadeye </value>
+	</data>
+	<data name="prompt_vipercoil2" xml:space="preserve">
+		<value>Release mid-swing to get an added boost</value>
+	</data>
+	<data name="prompt_wallrun" xml:space="preserve">
+		<value>Jump onto a highlighted magnetic surface to run on it</value>
+	</data>
+	<data name="prompt_waterrun" xml:space="preserve">
+		<value>Run onto the water at a low angle to skip across water</value>
+	</data>
+	<data name="prompt_waterslope" xml:space="preserve">
+		<value>Use momentum to launch yourself off slopes</value>
+	</data>
+	<data name="reactor_andrew_astra_vo" xml:space="preserve">
+		<value>The second facility built within the valley,
+named Astra, works in unison with Soma. &lt;until 5.550&gt;
+The valley’s orbs are harvested at
+the Astra facility which then cycles &lt;until 9.395&gt;
+through the Soma reactor to be amplified
+and returned to Astra for weapon creation. &lt;until 14.325&gt;
+The two facilities are interdependent on each
+other, like yin and yang, to maintain a balance. &lt;until 21.205&gt;</value>
+	</data>
+	<data name="reactor_andrew_complaining_vo" xml:space="preserve">
+		<value>That self-righteous anthropologist
+is stirring up trouble again. &lt;until 4.655&gt;
+Her moral objections to this project are
+the last thing I need on my mind. &lt;until 8.564&gt;
+If it weren’t for the isolation policy, &lt;until 10.700&gt;
+I’d have her removed from the premises
+and sent back home! &lt;until 14.000&gt;</value>
+	</data>
+	<data name="reactor_andrew_einstein_tw" xml:space="preserve">
+		<value>Note from Andrew Fisher:
+
+When I met Einstein at Princeton, I couldn’t help but see a hint of Oppenheimer reflected in him. I was 
+astonished by his clairvoyance into the makeup of our universe, viewing the experience of all things 
+natural and spiritual in perfect unison, with the ‘self’ acting as little more than an optical illusion in the 
+perpetual flow of the universe. 
+
+When Oppenheimer and I studied Indology under Arthur Ryder, I could see that same compassion and 
+empathy for all living creatures brewing within him.
+</value>
+	</data>
+	<data name="reactor_andrew_functionality_vo" xml:space="preserve">
+		<value>To produce bombs of unparalleled yield, &lt;until 2.930&gt;
+we rely upon the Lifeseed housed within a reactor
+found deep underground beneath the Soma Facility. &lt;until 8.720&gt;
+By harvesting the high energy-yield orbs
+found within the valley, &lt;until 12.050&gt;
+we pass their energy through the Lifeseed,
+which acts as a sort of amplifier, &lt;until 16.850&gt;
+magnifying the energy to unprecedented levels! &lt;until 19.722&gt;
+The explosives we create here will dwarf anything
+the Manhattan Project could ever possibly fathom! &lt;until 26.496&gt;</value>
+	</data>
+	<data name="reactor_andrew_lifeseed_tw " xml:space="preserve">
+		<value>Note from Andrew Fisher:
+
+Tracing the Lifeseed’s location was a simple matter. After years of tracking the epicenter of the 
+Pleistocene extinction event, I was led to this valley’s location. I couldn’t believe my eyes. Upon 
+immediate examination of one of the orbs, I discovered their vast energy potential. With the help of the 
+Pathfinders I was able to locate the Lifeseed within the valley. Oppenheimer won’t believe his ears 
+upon hearing the marvels I’ve accomplished.
+</value>
+	</data>
+	<data name="reactor_andrew_pathfinders_vo" xml:space="preserve">
+		<value>July 3rd, 1943 &lt;until 3.455&gt;
+Pathfinder is a designation assigned
+to soldiers piloting L.E.A.F. suits. &lt;until 7.485&gt;
+Pathfinders are divided into squads of 3.
+Objectives include testing L.E.A.F. technology &lt;until 12.825&gt;
+and to aid the anthropological effort
+as we further explore the ruins of the valley. &lt;until 17.556&gt;
+As such, Pathfinders are granted
+incredible speed and agility. &lt;until 21.726&gt;
+Soldiers piloting L.E.A.F. suits
+are given the stimulant DX-9 &lt;until 25.856&gt;
+to exert the energy needed
+to drive the exoskeleton. &lt;until 29.449&gt;
+Mark my words;
+these are the soldiers of the future. &lt;until 34.970&gt;</value>
+	</data>
+	<data name="reactor_andrew_pendulum_vo" xml:space="preserve">
+		<value>September 17th, 1942
+My name is Andrew Fisher, &lt;until 5.491&gt;
+Leading Physicist and Head of Project Pendulum.
+Pendulum is the research and development project &lt;until 10.916&gt;
+directed by the Army Corps of Engineers
+to produce a weapon of mass destruction &lt;until 15.646&gt;
+that can bring an end to the war through
+the unconditional surrender of our enemies. &lt;until 21.776&gt;
+In response to the spy-ridden efforts
+of the Manhattan Project, &lt;until 25.493&gt;
+headed by my cohort Robert Oppenheimer,
+Pendulum has been founded under the utmost secrecy &lt;until 32.375&gt;
+Funds, pride and soldiers' lives
+are all on the line in a race to win the war, &lt;until 37.774&gt;
+thus giving rise to the name Pendulum. &lt;until 40.914&gt;</value>
+	</data>
+	<data name="reactor_andrew_powerouts_tw" xml:space="preserve">
+		<value>Note from Andrew Fisher:
+
+Due to the power strain as the reactor ramps up production to meet our increased quota, we’ve 
+experienced frequent power outages. As such, I’ve ordered amrita generators as a backup power 
+source to be temporarily installed throughout the facility. Blackouts should cease to occur.
+</value>
+	</data>
+	<data name="reactor_andrew_quantumdeath_vo" xml:space="preserve">
+		<value>I..I can’t believe it.
+I’m almost at a loss for words! &lt;until 4.532&gt;
+This is the discovery of a lifetime,
+no…no of the 20th century! &lt;until 9.337&gt;
+Have I found Schrodinger’s cat?
+This is beyond my wildest imagination! &lt;until 14.194&gt;
+As a result of the reaction between amrita energy
+and a Pathinfinder’s own life-force, &lt;until 19.474&gt;
+they experience what I have
+dubbed “quantum death”. &lt;until 22.004&gt;
+When a Pathfinder dies while wearing the suit, &lt;until 24.444&gt;
+their consciousness branches
+into a new reality, unharmed. &lt;until 28.075&gt;
+They achieve quantum immortality! &lt;until 31.574&gt;</value>
+	</data>
+	<data name="reactor_andrew_quantumdeath2_tw" xml:space="preserve">
+		<value>Note from Andrew Fisher:
+
+Effectively, those wearing L.E.A.F. suits gain the ability to deny the actuality of wave function collapse: in 
+other words, the ability to branch through various objective realities as part of the many-world theory of 
+quantum mechanics. With this ability, Pathfinders have visions of themselves dying. Each time this 
+occurs, something nearby dies such as an animal or nearby vegetation.
+</value>
+	</data>
+	<data name="reactor_andrew_quantumdeath2_vo" xml:space="preserve">
+		<value>As we observed with Quantum Death, &lt;until 2.850&gt;
+it appears that as a trade-off something
+must forfeit its own life in their stead. &lt;until 7.332&gt;
+To put it plainly- &lt;until 8.600&gt;
+if a Pathfinder wearing the L.E.A.F. suit
+dies through some accident, &lt;until 12.099&gt;
+their death is traded with the life
+of a nearby living thing. &lt;until 15.557&gt;
+They achieve quantum immortality.
+Until we can circumvent this drawback, &lt;until 21.075&gt;
+utmost precaution must be used &lt;until 23.995&gt;</value>
+	</data>
+	<data name="reactor_andrew_quantumdeath3_tw" xml:space="preserve">
+		<value>Note from Andrew Fisher:
+
+It was soon discovered that if the Pathfinder has a vision of their own death, it is in fact them actually
+dying. Instead of remaining dead, they branch into a new wave of reality, whereupon they continue to 
+live, albeit at the cost of an equivalent amount of life within that branch. 
+
+To put it plainly, if a Pathfinder wearing the L.E.A.F. suit dies through some accident, their death is 
+traded with the life of a nearby living thing. They achieve quantum immortality. 
+</value>
+	</data>
+	<data name="reactor_andrew_rampupproduction_vo" xml:space="preserve">
+		<value>That damned Oppenheimer! &lt;until 2.314&gt;
+A report just came in stating that Manhattan’s
+first field test was a sure-fire success. &lt;until 7.472&gt;
+The explosion yielded 20 kilotons of TNT energy.
+I know I can outmatch this- &lt;until 12.969&gt;
+at greater efficiency, but time is running out.
+I am ordering a 300 percent increase in production &lt;until 19.595&gt;
+to meet quotas for a megaton blast yield,
+produced in three days’ time. &lt;until 24.219&gt;
+But of course, our trump card lies in
+the Thanatos cannon prototype under development: &lt;until 30.078&gt;
+its power unlike anything Oppenheimer
+could possibly fathom. With this technology, &lt;until 35.491&gt;
+we’ll become the closest thing to gods
+the world has ever seen! &lt;until 39.340&gt;</value>
+	</data>
+	<data name="reactor_andrew_samsara_vo" xml:space="preserve">
+		<value>//Removed
+That damned Oppenheimer! A report just came in stating that Manhattan’s first field test was a sure-fire success. The explosion yielded 20 kilotons of TNT in energy. I know I can outmatch this- at greater efficiency, but time is running out. Undoubtedly the Secretary of War and the army’s Chief of Staff are all too eager to jump on Oppenheimer’s bandwagon. I have to move fast. I am ordering a 300 percent increase in production to meet quotas for a megaton blast yield, produced in three days’ time. </value>
+	</data>
+	<data name="reactor_andrew_speedcap_vo" xml:space="preserve">
+		<value>Our newly developed Pushrod Pistons &lt;until 2.632&gt;
+will allow Pathfinders to achieve 
+an unprecedented velocity. &lt;until 5.942&gt;
+By energizing the tunnel rails, &lt;until 8.060&gt;
+the L.E.A.F. suit should conduct enough energy
+to reach immense speeds. &lt;until 12.00&gt;</value>
+	</data>
+	<data name="reactor_andrew_valleylocation_vo" xml:space="preserve">
+		<value>As a precaution to both Nazi and Soviet espionage, &lt;until 3.970&gt;
+Pendulum’s location and purpose is
+unknown to the outside world. &lt;until 8.090&gt;
+Taking a cue from the Manhattan Project,
+only a small few know of Pendulum’s purpose, &lt;until 13.085&gt;
+operating under the guise of an
+alternative energy project.  &lt;until 16.776&gt;
+As it came to light that Manhattan
+had been plagued with espionage, &lt;until 20.664&gt;
+it was agreed upon to shroud Pendulum
+within the government itself. &lt;until 24.776&gt;
+All those who know of Pendulum’s true intent
+are here. Though admittedly extreme, &lt;until 29.726&gt;
+we can ensure an ironclad umbrella of secrecy.
+Information can only come in, and none can go out. &lt;until 36.756&gt;
+As far as anyone outside this valley knows, &lt;until 39.383&gt;
+Pendulum does not exist.
+This valley does not exist. &lt;until 46.253&gt;</value>
+	</data>
+	<data name="reactor_bureaucrat_secret_tw" xml:space="preserve">
+		<value>Note from an administrator:
+
+Trying to keep this operation a secret has been an absolute nightmare. Between coordinating 
+surreptitious supply drops, securing illegitimate funds, channeling resources and manpower, to creating 
+thousands of ghost accounts and fake offices to bury the operation from any level of government. 
+Barring someone accidentally stumbling across this location in one of the most remote areas on the 
+planet, there is no chance any one will find us out here. 
+</value>
+	</data>
+	<data name="reactor_charlotte_psychology_tw" xml:space="preserve">
+		<value>Note from Charlotte Smith:
+
+I’ve ran through the annual psychological assessment for all personnel stationed in Area 634. Many are 
+reaching a breaking point in their isolation from friends and family back home, and the work hours 
+demanded from them is taking its toll on morale.
+
+Despite this, most are quite mentally stable. The project lead, Andrew Fisher, does concern me.
+</value>
+	</data>
+	<data name="reactor_clark_code1_tw" xml:space="preserve">
+		<value>Beginning SILENTKEY encrypted message, June 2nd:
+TZYB3KSB6!TMKUF7IKV,ZSN5K?3E5BZESC6VLE,2UECLVP
+</value>
+	</data>
+	<data name="reactor_clark_code2_tw" xml:space="preserve">
+		<value>Beginning SILENTKEY encrypted message, June 5th:
+IKV,ZSR3VLE,6E,7,Z5!ZZTR3ILKV5BZ6WZY2
+IKSV3VZ6,M!UMVTW7VKTA5K(ZYVP
+</value>
+	</data>
+	<data name="reactor_contractor_note_tw" xml:space="preserve">
+		<value>Note from a contractor:
+
+Now that the isolation policy is in effect, I’ve found out this is a weapon project of some sort. I still don’t 
+know much, but I hope to find out more. I just wish I could talk to my family back home, let them know 
+I’m doing ok.
+</value>
+	</data>
+	<data name="reactor_engineer_mountain_tw" xml:space="preserve">
+		<value>Note from an engineer:
+
+Thankfully this mountain is riddled with tunnels and caverns already carved by either the ancient 
+inhabitants here or through natural geologic events. Otherwise, getting the reactor down here would 
+have taken us years. If this thing ever destabilizes, it can hopefully be contained under the massive 
+weight of the mountain.
+</value>
+	</data>
+	<data name="reactor_engineer_overheating_tw" xml:space="preserve">
+		<value>Note from an engineer:
+
+The strain we’ve been putting on this reactor is beyond safe limits. Ever since the ramp up I feel like I’m 
+risking my life by coming down here for the daily pressure checks. We had better finish up soon, I don’t 
+know how much more the reactor can take.
+</value>
+	</data>
+	<data name="reactor_guard_hockey_tw" xml:space="preserve">
+		<value>Note from a guard:
+
+Right before being sent out here, I got to see the Maple Leafs win the Stanley Cup. That goal by ol’ Petey 
+Langelle was one to remember. I’d bet anything they’re gonna win the cup again next year. I’d even bet 
+my children on it, they don’t really like me anyhow.
+</value>
+	</data>
+	<data name="reactor_guard_note1_tw" xml:space="preserve">
+		<value>Note from Private Reilly:
+
+I’ve been ordered to patrol the Soma facility again today. I’ve circled through the same rooms thirty 
+times since noon. At least I get to smile at the cute scientist in the pressure chambers each time. She 
+hasn’t smiled back at me yet… I hope she doesn’t find me creepy. 
+</value>
+	</data>
+	<data name="reactor_guard_pathfinder_tw" xml:space="preserve">
+		<value>Note from a guard:
+
+I’d give anything to be a Pathfinder, but there’s no way I’d ever be eligible unless I suddenly lost 60 
+pounds. That’ll never happen. Too bad, I bet you I could pick up a lot of girls in those things.
+</value>
+	</data>
+	<data name="reactor_hatepun_note_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+I hate that annoying pun guy. I went into storage looking for inert gas to fill the glovebox. He walked by 
+with the last canister in hand and told me it was “argon”. I hate him.
+</value>
+	</data>
+	<data name="reactor_intercom_activation_vo" xml:space="preserve">
+		<value>Warning: Soma reactor deactivated. 
+Fuel link to Astra has been disrupted. &lt;until 6.334&gt;
+All Area 634 occupants
+are in danger of life extraction. &lt;until 10.385&gt;
+Please suspend Astra operations immediately. &lt;until 13.500&gt;</value>
+	</data>
+	<data name="reactor_intercom_activation2_vo" xml:space="preserve">
+		<value>Warning: all personal in danger of life extraction. &lt;until 3.690&gt;
+Please shut down Astra immediately. &lt;until 5.940&gt;</value>
+	</data>
+	<data name="reactor_intercom_cafeteria_vo" xml:space="preserve">
+		<value>Attention all personnel: a security breach has been detected. Please vacate the premise at once. Again, all personnel must vacate the premise immediately.</value>
+	</data>
+	<data name="reactor_intercom_entering soma_vo" xml:space="preserve">
+		<value>You are now entering the Soma facility. &lt;until 2.338&gt;
+Please have proper identification
+ready for verification. &lt;until 5.929&gt;
+All personnel must provide proper identification. &lt;until 8.998&gt;
+Failure to do so will result in detention. &lt;until 12.250&gt;</value>
+	</data>
+	<data name="reactor_intercom_welcome_vo" xml:space="preserve">
+		<value>Welcome to the Pendulum
+research and development site. &lt;until 4.085&gt;
+All personnel must report to the front desk
+with appropriate security clearance. &lt;until 8.208&gt;</value>
+	</data>
+	<data name="reactor_jefferson_suspicious_tw" xml:space="preserve">
+		<value>Note from a guard:
+
+I've spotted engineers Clarke and Watson suspiciously exchanging notes back and forth every day at 
+lunch. I need to keep an eye on them; they could potentially be Soviet spies.
+</value>
+	</data>
+	<data name="reactor_memo_hours_tw" xml:space="preserve">
+		<value>Memo:
+
+All personnel are expected to work longer hours during the ramp up in production. If you believe you 
+are unable to perform your duties as expected, please report to a supervisor immediately. 
+</value>
+	</data>
+	<data name="reactor_memo_reportsuspicious_tw" xml:space="preserve">
+		<value>Memo:
+
+Please report any suspicious activity to an officer immediately. Any hesitation could place the entire 
+operation in jeopardy.
+</value>
+	</data>
+	<data name="reactor_memo_waste_tw" xml:space="preserve">
+		<value>Memo:
+
+Please refrain from wasting office supplies unnecessarily. Stock is running low. 
+Please exhaust all office supplies to their full extent.
+</value>
+	</data>
+	<data name="reactor_narrator_projectorpathfinder_vo" xml:space="preserve">
+		<value>Welcome to the Pathfinder program! You’ve been selected among an elite few to participate in an experimental study to test out Pendulum’s newly designed L.E.A.F. suit. Do you have what it takes to master the marvels of this ground-breaking technology?</value>
+	</data>
+	<data name="reactor_pathfinder_energy_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+It’s odd to think about what exactly a life is once you’ve experienced quantum death. What exactly are 
+the ingredients that make up my life? My ingredients aren’t really any different than anyone else’s; 
+carbon, calcium, hydrogen, etc. held together with some energy. So what exactly makes me, me? 
+
+I guess, if anything, I’m just a pattern. One that forms out of the chaotic blender of matter in the 
+universe, like a whirlpool out of the water, and when I die that pattern simply dissipates back into the 
+cosmos. Are we all the same universe simply expressing itself?
+</value>
+	</data>
+	<data name="reactor_pathfinder_jealous_tw" xml:space="preserve">
+		<value>Note from Private Matthews:
+
+The way Edwin makes a show with Virginia all the time really makes my teeth grind. Everyone knows 
+that romantic involvement between personnel is prohibited, yet no one does anything about it. Why 
+does he get to run around with a girl while the rest of us sit around and play poker for the 9000th time?
+</value>
+	</data>
+	<data name="reactor_player_abandoned" xml:space="preserve">
+		<value>What happened to everyone?</value>
+	</data>
+	<data name="reactor_player_active" xml:space="preserve">
+		<value>How is it still active after all these years?</value>
+	</data>
+	<data name="reactor_player_astra" xml:space="preserve">
+		<value>Astra? </value>
+	</data>
+	<data name="reactor_player_astralife" xml:space="preserve">
+		<value>The energy is harvested at the Astra facility...</value>
+	</data>
+	<data name="reactor_player_awe" xml:space="preserve">
+		<value>The Lifeseed...</value>
+	</data>
+	<data name="reactor_player_awe2" xml:space="preserve">
+		<value>This is the great LifeSeed!</value>
+	</data>
+	<data name="reactor_player_awe3" xml:space="preserve">
+		<value>I can't believe it</value>
+	</data>
+	<data name="reactor_player_balance" xml:space="preserve">
+		<value>...and linked with Soma to be amplified?</value>
+	</data>
+	<data name="reactor_player_cannon" xml:space="preserve">
+		<value>Cannon?</value>
+	</data>
+	<data name="reactor_player_creature" xml:space="preserve">
+		<value>The hell was that?</value>
+	</data>
+	<data name="reactor_player_destabilized" xml:space="preserve">
+		<value>What the hell is Astra?</value>
+	</data>
+	<data name="reactor_player_harmvalley" xml:space="preserve">
+		<value>Was the reactor killing the valley?</value>
+	</data>
+	<data name="reactor_player_lifeseed" xml:space="preserve">
+		<value>Time to get the Lifeseed out of that thing</value>
+	</data>
+	<data name="reactor_player_lifeseedreactor" xml:space="preserve">
+		<value>An underground reactor...</value>
+	</data>
+	<data name="reactor_player_reactor" xml:space="preserve">
+		<value>This thing is huge...</value>
+	</data>
+	<data name="reactor_player_secrecy" xml:space="preserve">
+		<value>Is that why no one's been here?</value>
+	</data>
+	<data name="reactor_player_secrecy2" xml:space="preserve">
+		<value>Does anyone else know this place exists?</value>
+	</data>
+	<data name="reactor_player_tracks" xml:space="preserve">
+		<value>So this should lead down to the reactor...</value>
+	</data>
+	<data name="reactor_player_uhoh" xml:space="preserve">
+		<value>Uh oh...</value>
+	</data>
+	<data name="reactor_player_valley" xml:space="preserve">
+		<value>Were they harming the valley?</value>
+	</data>
+	<data name="reactor_player_weapon" xml:space="preserve">
+		<value>Super Weapons?</value>
+	</data>
+	<data name="reactor_player_whatnow" xml:space="preserve">
+		<value>What now?</value>
+	</data>
+	<data name="reactor_pun_note1_tw" xml:space="preserve">
+		<value>Note from researcher Miller:
+
+Today one of the guards patrolling the Soma facility walked by. I asked him if he was keeping an “ion” 
+things. I don’t think he got it.
+</value>
+	</data>
+	<data name="reactor_pun_note2_tw" xml:space="preserve">
+		<value>Note from researcher Miller:
+
+The other scientists were all talking about atoms. I told them not to trust them since they make up 
+everything. They asked me to leave.
+</value>
+	</data>
+	<data name="reactor_pun_note3_tw" xml:space="preserve">
+		<value>Note from researcher Miller:
+
+I’ve been trying to think of new puns all day about the stored energy of an object. I think a lot of them 
+have potential.
+</value>
+	</data>
+	<data name="reactor_reseacher_autopsy_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The toxicology report came in from the autopsy conducted on the latest Pathfinder fatality. As 
+suspected, an excess of DX-IX led to cardiac arrest. The sooner we circumvent the need for DX-IX, the 
+better.
+</value>
+	</data>
+	<data name="reactor_researcher_elderlypathfinder_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Quantum death and immortality using L.E.A.F. technology is a fascinating field of study. Using this tech, 
+a person could live out a full life without fear of an accident cutting it short. Albeit, the use of 
+‘immortality’ is a misnomer, as the user simply shifts to a new timeline wherein they are still alive, this 
+can only hold true until all practical timelines are exhausted. 
+
+For example, an elderly man dying of natural causes is unlikely to shift into a timeline where they do not 
+die as that parallel world is very unlikely to exist. 
+</value>
+	</data>
+	<data name="reactor_researcher_extinction_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+A large scale extinction event occurred in North America near the end of the Pleistocene period. 
+Interestingly, the epicenter of the extinction seems to stem from this valley’s location. Could Area 634 
+have anything to do with it?
+</value>
+	</data>
+	<data name="reactor_researcher_infrastructure_tw" xml:space="preserve">
+		<value>Infrastructure report:
+
+The reactor and thermal diffuser are very unstable and must be located both far apart and underground 
+to ensure any accidental explosions are contained. Large vents are needed to circulate cool air deep into 
+the mountain. 
+
+Conveniently, one of the mountains already had ancient tunnels leading deep into the heart of the 
+mountain. This site was chosen for the thermal diffuser and weapons site. The two sites are connected 
+via underground rail to transport materials.
+</value>
+	</data>
+	<data name="reactor_researcher_isolation_tw" xml:space="preserve">
+		<value>Reminder Notification:
+
+Area 634 Isolation Policy is currently in effect. All vehicles and personnel entering the site can no 
+longer leave until project completion. The rail tunnel and airport will remain closed until that time. 
+All communication is in full lockdown. 
+
+Thomas Wilson
+Head of Pendulum Transportation
+</value>
+	</data>
+	<data name="reactor_researcher_leaf_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The L.E.A.F. suit may prove to be the pinnacle feat of Pendulum; the ability to manipulate life and death 
+using the God Hand, the agility, and the ability to circumvent death, all thanks to the amrita energy 
+converted from this valley’s orbs. 
+
+We can create the ultimate soldier. The Mark II’s success will herald a new wave of iterations.
+</value>
+	</data>
+	<data name="reactor_researcher_lifeextraction_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Depending on the degree of magnitude, certain organisms provide very little amrita energy 
+when targeted by the L.E.A.F. suit’s God Hand. Smaller organisms such as insects, grass, flowers 
+and other less substantial entities provide close to zero energy, thereby affording no value 
+for Pathfinders seeking energy.
+</value>
+	</data>
+	<data name="reactor_researcher_lifeseedloop_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The Lifeseed’s ability to amplify energy is incredibly dangerous. If energy passes through too 
+quickly, it will amplify at an exponential rate uncontainable by our conductors and thermal chemical 
+reserves. To ensure we do not blow out the energy circuit, we must mitigate a restricted amount of 
+amrita to pass through at any given time. Typically, only one pass-through is all that the conductors 
+can handle before the energy becomes too immense to possibly contain, reaching upwards of a full 
+petajoule.
+
+</value>
+	</data>
+	<data name="reactor_researcher_megalomaniac_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Fisher is demanding we work nearly nonstop these last few weeks. He comes off as a megalomaniac, 
+constantly reveling in his work. Just look at that Pathfinder statue in the main lobby!  
+I can’t believe we have to take orders from him, without question, during war time. 
+
+Surely I can’t be the only one who feels this way. 
+Maybe being stuck in this valley for so long has got the better of him.
+
+</value>
+	</data>
+	<data name="reactor_researcher_megalomaniac2_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+This Fisher guy is out of his mind. A total megalomaniac. Just look at that Pathfinder 
+statue in the main lobby!  I can’t believe we all have to take orders from him, unquestionably, 
+during this war time. Surely I can’t be the only one who feels this way.
+</value>
+	</data>
+	<data name="reactor_researcher_orbdesk_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+I finally got to see one of those orbs out in the wild while I was on leave for the day. 
+There is something surreal about them. I stared into it for who knows how long…
+
+</value>
+	</data>
+	<data name="reactor_researcher_orbs_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The energy orbs growing here are the key to the valley. Pendulum completely depends on the vast 
+magnitude of energy these orbs contain within them. Regardless of where they came from, they are the 
+key to ending the war. 
+
+Through Pendulum, we can harness the so called ‘amrita’ energy of the orbs and release it however we 
+see fit. Oppenheimer’s atomic bomb will pale in comparison to what we can produce here.
+</value>
+	</data>
+	<data name="reactor_researcher_powerslugs_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Within the Soma facility, we are surrounded by the amrita fuel slugs extracted from the valley. As such, 
+we tend to be isolated from the effects of the Pathfinder’s quantum death side-effects. I was amazed to 
+one day step out of the facility to see scores of trees dead around me.
+</value>
+	</data>
+	<data name="reactor_researcher_protoype_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+I thought the bombs being created were impressive enough, but it’s that new weapon prototype that 
+will undoubtedly steal all the attention. It’s being called ‘Thanatos’.
+</value>
+	</data>
+	<data name="reactor_researcher_rampup_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+Why in hell is Fisher making us ramp up production? We’re already working ourselves 
+half to death down here, and now he wants sleep deprived people working round the clock? We’re 
+working on explosives for crying out loud!
+</value>
+	</data>
+	<data name="reactor_researcher_sightings_tw" xml:space="preserve">
+		<value>Note from a psychologist:
+
+Several guards on night watch have reported large creature sightings. Some of them are a little shaken 
+up by it. It might just be that being stuck out here in the middle of nowhere for so long is finally getting 
+to them. Either way, we’ll need full annual psychological assessments for all personnel in the near 
+future. 
+
+Charlotte Smith
+Psychological Operations 
+</value>
+	</data>
+	<data name="reactor_scientist_fisherpraise_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+That no good Simmons is sucking up to Fisher again. He’s always first to volunteer for assignments, 
+which is no surprise as Fisher can hardly enter a room without him following. He’s not even all that 
+smart, just great at agreeing with everything Fisher has to say. Is that how you get ahead these days?
+</value>
+	</data>
+	<data name="reactor_scientist_screams_vo" xml:space="preserve">
+		<value>//Removed
+
+July 17th 1945, production capacity has peaked, with all cores showing signs of thermal strain. As per emergency precautions, reducing output back to sustainable default levels. Additional cooling units-
+*Strange creature noise*
+What was that?
+*Sound of someone running, screaming*
+What the hell!
+*Alarm sound goes off, creature noises are heard in large numbers, very loud*
+*Screaming from multiple people, chaos and running* 
+-Suddenly cuts out-
+</value>
+	</data>
+	<data name="reactor_silentkey_decryption_tw" xml:space="preserve">
+		<value> A=K B=D C=G D=F E=I F=, G=" H=) I=W J=: K=A L=H M=E
+N=. O=J P=? Q=Q R=! S=N T=L U=R V=T W=Y X=' Y=U Z=O
+.=X ,=S ?=M !=C '=P "=Z (=B )=V :=(
+Numbers = Spaces
+</value>
+	</data>
+	<data name="reactor_tradesmen_note_tw" xml:space="preserve">
+		<value>Note from a boilermaker:
+
+They told us we’re building some sort of alternative energy facility here, but little else. Tradesmen are 
+only allowed in certain areas at certain times for certain jobs. They’re keeping us completely in the dark, 
+having us all focus on a single task at a time rather than giving us any hints into the big picture. What are 
+they hiding from us?
+
+</value>
+	</data>
+	<data name="reactor_virginia_forestplight_vo" xml:space="preserve">
+		<value>The valley…it’s suffering. &lt;until 5.074&gt;
+The natural life here
+seems to be slowly dwindling. &lt;until 9.280&gt;
+Edwin thinks I’m crazy,
+but I see it becoming… quieter. &lt;until 15.451&gt;
+Are we gradually killing this place? &lt;until 18.031&gt;</value>
+	</data>
+	<data name="reactor_virginia_frustrated_vo" xml:space="preserve">
+		<value>- &lt;until 1.335&gt;
+Fisher’s all but ignoring any of my pleas
+to slow down what they’re doing to the valley. &lt;until 7.408&gt;
+We’re speeding blindly past
+the point of no return. &lt;until 11.268&gt;
+Edwin can see it too.
+The animals have all vanished or died off, &lt;until 17.578&gt;
+trees are withering away, even those
+Amrita Swarms have become incredibly aggressive… &lt;until 25.004&gt;
+and the daemons… What will happen to them? &lt;until 32.703&gt;
+With word coming in over broadcasts
+of victory in Europe, &lt;until 35.757&gt;
+what’s the point in this? &lt;until 37.920&gt;</value>
+	</data>
+	<data name="reactor_watson_code1_tw" xml:space="preserve">
+		<value>Beginning SILENTKEY encrypted message, June 1st:
+VLE,3E,6K7VM,VN5!TKUAMF3BZ5WZY6!Z'WP
+</value>
+	</data>
+	<data name="reactor_watson_code2_tw" xml:space="preserve">
+		<value>Beginning SILENTKEY encrypted message, June 4th:
+E3UMKB6WZYF7!TKUAMN5,LKUMB3,M!UMV5M,VK(TE,LMBR
+</value>
+	</data>
+	<data name="reactor_watson_code3_tw" xml:space="preserve">
+		<value>Beginning SILENTKEY encrypted message, June 6th:
+L??NNN3E6CYM,,7E5LKBSXV3CZVVMS5VLKV6DKU
+</value>
+	</data>
+	<data name="reactor_worker _coffee_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+Ralph, I saw you take a sip of my coffee this morning.  And it wasn’t the first time either. You know how 
+scarce coffee is getting around here. Please stop sipping my coffee.
+
+-Frederick
+</value>
+	</data>
+	<data name="reactor_worker_contractors_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+Most of the contractors who help construct this place have since been sent back home, having no idea 
+where exactly in the mountains they had been working. As far as they knew, they were simply building 
+an alternative energy research compound. The army was careful to hide the orbs, ruins and sprites from 
+the contractors, limiting where they could go and what they could see.
+</value>
+	</data>
+	<data name="reactor_worker_pencils_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+I’m getting real sick of your attitude Ralph. I saw you sneak into my office to steal pencils again. 
+I’m running low and really need them for my work. The next supply drop isn’t until the spring. 
+Stop stealing my pencils, please and thank you. 
+
+-Frederick
+
+</value>
+	</data>
+	<data name="reactor_worker_ruins_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+Whoever these people were that once lived in this valley sure went through a lot of trouble carving out 
+all these giant colossi everywhere, even in these tunnels. Must have been pretty important to them, 
+digging out passageways through the middle of a mountain ain’t easy!
+</value>
+	</data>
+	<data name="reactor_worker_supplydrops_tw" xml:space="preserve">
+		<value>Note from a worker:
+
+We better finish up this project soon. Those supply drops are only scheduled to arrive for a few more 
+months. Otherwise, due to the isolation policy, we’re on our own. The pilots know nothing of this 
+operation other than their orders to drop off supplies to this location until the end of this year. I think 
+they were told this is for a mining operation.  No wonder Fisher is going mad over our timelines.
+</value>
+	</data>
+	<data name="requires" xml:space="preserve">
+		<value>Requires</value>
+	</data>
+	<data name="restore_cancel" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="restore_confirm" xml:space="preserve">
+		<value>Restore</value>
+	</data>
+	<data name="restore_defaults_description" xml:space="preserve">
+		<value>This will discard your changes to this menu.</value>
+	</data>
+	<data name="restore_defaults_title" xml:space="preserve">
+		<value>Are you sure?</value>
+	</data>
+	<data name="select_voice" xml:space="preserve">
+		<value>Please select a gender for your character</value>
+	</data>
+	<data name="skip_credits_cancel" xml:space="preserve">
+		<value>Don't Skip</value>
+	</data>
+	<data name="skip_credits_confirm" xml:space="preserve">
+		<value>Skip</value>
+	</data>
+	<data name="skip_credits_description" xml:space="preserve">
+		<value>Are you sure you want to skip the credits?</value>
+	</data>
+	<data name="skip_credits_title" xml:space="preserve">
+		<value>Skip Credits</value>
+	</data>
+	<data name="slender_8_pages" xml:space="preserve">
+		<value>(Unintelligible sketchings)</value>
+	</data>
+	<data name="start_menu_anykey" xml:space="preserve">
+		<value>Pressione Qualquer Tecla</value>
+	</data>
+	<data name="start_menu_press_a" xml:space="preserve">
+		<value>Press 'A' to Start</value>
+	</data>
+	<data name="start_menu_press_x" xml:space="preserve">
+		<value>Press 'X' to Start</value>
+	</data>
+	<data name="steam_offline_description" xml:space="preserve">
+		<value>You are either offline or have disabled cloud syncing in your account settings</value>
+	</data>
+	<data name="steam_offline_title" xml:space="preserve">
+		<value>Steam cloud sync unavailable</value>
+	</data>
+	<data name="test_key_two" xml:space="preserve">
+		<value>&lt;font&gt;jerry_b4s_handwriting&lt;/font&gt;&lt;size=10&gt;&lt;#001100&gt;Quantum Death 
+\t &lt;b&gt;Quantum Death&lt;/b&gt; is the phenomenon that occurs when a user wearing a L.E.A.F. suit experiences a death. As a result of the suits infusing its energy with the vitality, or élan vital, of the user, they experience what is known as a quantum death.&lt;/size&gt;&lt;/color&gt;
+</value>
+	</data>
+	<data name="titlecard_barracks" xml:space="preserve">
+		<value>Camp Henday</value>
+	</data>
+	<data name="titlecard_blue_isle" xml:space="preserve">
+		<value>Blue Isle Studios Proudly Presents</value>
+	</data>
+	<data name="titlecard_boss1" xml:space="preserve">
+		<value>Behemoth's Gorge</value>
+	</data>
+	<data name="titlecard_cliff" xml:space="preserve">
+		<value>Titan Rock</value>
+	</data>
+	<data name="titlecard_facility_1" xml:space="preserve">
+		<value>Smoke Lake</value>
+	</data>
+	<data name="titlecard_facility_2" xml:space="preserve">
+		<value>Astra Facility</value>
+	</data>
+	<data name="titlecard_field" xml:space="preserve">
+		<value>Proving Grounds</value>
+	</data>
+	<data name="titlecard_intro" xml:space="preserve">
+		<value>Wendigo Lake</value>
+	</data>
+	<data name="titlecard_nestingground" xml:space="preserve">
+		<value>Feeding Ground</value>
+	</data>
+	<data name="titlecard_present_day" xml:space="preserve">
+		<value>Remote Region,
+Canadian Rockies</value>
+	</data>
+	<data name="titlecard_proudly_presents" xml:space="preserve">
+		<value>Proudly Presents...</value>
+	</data>
+	<data name="titlecard_reactor" xml:space="preserve">
+		<value>Soma Facility</value>
+	</data>
+	<data name="titlecard_reactorcore" xml:space="preserve">
+		<value>Soma Reactor Core</value>
+	</data>
+	<data name="titlecard_susurrus" xml:space="preserve">
+		<value>Susurrus Valley</value>
+	</data>
+	<data name="titlecard_thanatos" xml:space="preserve">
+		<value>Thanatos Cannon</value>
+	</data>
+	<data name="titlecard_valley" xml:space="preserve">
+		<value>Valley</value>
+	</data>
+	<data name="tooltip_generic" xml:space="preserve">
+		<value>This is a placeholder tool tip. You can write various tooltips to the loading screen in order to show the player new information.</value>
+	</data>
+	<data name="tutorial_acorn_pickup" xml:space="preserve">
+		<value>Collect enough acorns to gain access through certain ancient doorways.</value>
+	</data>
+	<data name="tutorial_ancient_artifact" xml:space="preserve">
+		<value>These medallions are said to be used to access an ancient pyramid. Collect enough pieces to gain entry to its chambers.  </value>
+	</data>
+	<data name="tutorial_bouncing_orbs" xml:space="preserve">
+		<value>Bounce Membrane upgrade allows energy to bounce off hard surfaces.</value>
+	</data>
+	<data name="tutorial_damage_reduction" xml:space="preserve">
+		<value>Take less of a hit to your energy reserves through damage with the radiator block.</value>
+	</data>
+	<data name="tutorial_double_jump" xml:space="preserve">
+		<value>Get to higher and further areas by double jumping with the Icarus Boost upgrade. Each boost costs 1 unit of energy. </value>
+	</data>
+	<data name="tutorial_doublejump_nullify" xml:space="preserve">
+		<value>The Icarus Boost damper nullifies its energy cost.</value>
+	</data>
+	<data name="tutorial_enemy_behaviour" xml:space="preserve">
+		<value>Ward off enemies using daemon scent.</value>
+	</data>
+	<data name="tutorial_energy_canister" xml:space="preserve">
+		<value>The energy canister increases your suit’s energy capacity by four units.</value>
+	</data>
+	<data name="tutorial_energy_capacitor" xml:space="preserve">
+		<value>Energy capacity is increased with Capacitor upgrades. Find four to complete an energy canister.</value>
+	</data>
+	<data name="tutorial_energy_efficiency" xml:space="preserve">
+		<value>Use energy more efficiently with the Energy Damper upgrade! L.E.A.F. functionality now requires less energy to perform abilities. </value>
+	</data>
+	<data name="tutorial_energy_flare" xml:space="preserve">
+		<value>Light your path by either shooting energy like a flare, or into certain objects such as fungi or generators, to illuminate an area. </value>
+	</data>
+	<data name="tutorial_generator_power" xml:space="preserve">
+		<value>Generators used by the army have been designed to accept amrita energy. Try activating one with your suit's energy.</value>
+	</data>
+	<data name="tutorial_give_energy" xml:space="preserve">
+		<value>Many items, both ancient and modern, have been designed to accept amrita energy for various uses.</value>
+	</data>
+	<data name="tutorial_golden_acorns" xml:space="preserve">
+		<value>By giving life to trees, there is a chance one or more golden acorns will drop.</value>
+	</data>
+	<data name="tutorial_health_pack" xml:space="preserve">
+		<value>Use amrita packs to restore a small amount of energy to your suit.</value>
+	</data>
+	<data name="tutorial_hookshot_nullify" xml:space="preserve">
+		<value>The Viper Coil damper nullifies its energy cost.</value>
+	</data>
+	<data name="tutorial_insect_swarm" xml:space="preserve">
+		<value>Beware of Amrita Swarms. They can be pacified with life energy. Damage from their attacks affects your energy count. Damage at zero energy results in death.</value>
+	</data>
+	<data name="tutorial_killer_soma" xml:space="preserve">
+		<value>Killer soma are aggressive, and ignite flammable 
+vapour when stimulated as a defence mechanism.</value>
+	</data>
+	<data name="tutorial_lifeseed" xml:space="preserve">
+		<value>The Lifeseed amplifies any energy that passes through it. More testing needs to be conducted to further learn of its effects. </value>
+	</data>
+	<data name="tutorial_open_wavefunction_01" xml:space="preserve">
+		<value>When there is not enough life to draw from to revive yourself, you end up in a limbo state called ‘Samsara’.</value>
+	</data>
+	<data name="tutorial_open_wavefunction_02" xml:space="preserve">
+		<value>This state is a cross-section of branching realities. Collect energy from Pathfinders who have died in the past to branch off into a new reality where you are alive. </value>
+	</data>
+	<data name="tutorial_orbs_01" xml:space="preserve">
+		<value>The L.E.A.F. suit's energy can be replenished by orbs found growing in the valley.</value>
+	</data>
+	<data name="tutorial_poison_plants" xml:space="preserve">
+		<value>Ya-te-veo, meaning "I see you", is a carnivorous plant whose spore feeds on amrita energy. Avoid venturing within its range.</value>
+	</data>
+	<data name="tutorial_quantum_death_01" xml:space="preserve">
+		<value>The L.E.A.F. suit’s Quantum Death functionality allows the user to return to life after dying.</value>
+	</data>
+	<data name="tutorial_quantum_death_02" xml:space="preserve">
+		<value>But life must be traded for life. The more you die, the more the valley will die around you until it is fully deadened. Without enough life in the valley, you cannot be revived.</value>
+	</data>
+	<data name="tutorial_rail_running" xml:space="preserve">
+		<value>Feed off the energy conduction of powered rails to travel faster</value>
+	</data>
+	<data name="tutorial_raptor_suit" xml:space="preserve">
+		<value>The Raptor L.E.A.F. suit reflects the pride the venturesome Raptor squad takes in their Pathfinder motif. </value>
+	</data>
+	<data name="tutorial_revitalize_valley" xml:space="preserve">
+		<value>To prevent the valley from fully dying, it can be revitalized by returning life to once living things.</value>
+	</data>
+	<data name="tutorial_run_jump" xml:space="preserve">
+		<value>Use forward momentum to jump a further distance.</value>
+	</data>
+	<data name="tutorial_run_slope" xml:space="preserve">
+		<value>Run down slopes to gain momentum to jump higher and further.</value>
+	</data>
+	<data name="tutorial_slope_speed" xml:space="preserve">
+		<value>Increase velocity by running down slopes.</value>
+	</data>
+	<data name="tutorial_speedcap_increase" xml:space="preserve">
+		<value>Get where you need faster with the Pushrod Piston maximum velocity upgrade.</value>
+	</data>
+	<data name="tutorial_storage_cells" xml:space="preserve">
+		<value>No trees or orbs nearby? Take energy from Storage Cells to restock your reserves.</value>
+	</data>
+	<data name="tutorial_surface_break_01" xml:space="preserve">
+		<value>Cracked surfaces can be broken through by landing on them from high above.</value>
+	</data>
+	<data name="tutorial_surface_break_02" xml:space="preserve">
+		<value>Remember, dropping from large heights can break through cracked surfaces.</value>
+	</data>
+	<data name="tutorial_take_energy" xml:space="preserve">
+		<value>Life can also be taken from nearby living things rich in energy, such as a tree or animal, to replenish your suit. Less robust lifeforms, such as blades of grass, provide no value. </value>
+	</data>
+	<data name="tutorial_titan_tree" xml:space="preserve">
+		<value>Titan Trees, found growing throughout the valley, have large obelisks at the tips of its roots. </value>
+	</data>
+	<data name="tutorial_tree_door" xml:space="preserve">
+		<value>Ancient doorways are activated by a tree's life energy. Look out for fireflies that inhabit these trees. </value>
+	</data>
+	<data name="tutorial_trees_life" xml:space="preserve">
+		<value>Energy stored within the L.E.A.F. suit, known as "amrita", can be given to once living things.</value>
+	</data>
+	<data name="tutorial_viper_coil" xml:space="preserve">
+		<value>Swing yourself up to new places with the Viper Coil upgrade, allowing Pathfinders to latch onto deadeye crane blocks. Each use costs 1 unit of energy. </value>
+	</data>
+	<data name="tutorial_wall_running" xml:space="preserve">
+		<value>Run along magnetic wall surfaces with the Magnetic Core upgrade.</value>
+	</data>
+	<data name="tutorial_water_death" xml:space="preserve">
+		<value>L.E.A.F. suits are very heavy equipment: this makes water incredibly dangerous.</value>
+	</data>
+	<data name="tutorial_water_running" xml:space="preserve">
+		<value>Lake Skipper upgrade allows Pathfinders to run across water for a limited duration. Your speed will increase as you run.</value>
+	</data>
+	<data name="valley_andrew_doublejump_vo" xml:space="preserve">
+		<value>Andrew Fisher, lead Physicist, &lt;until 2.310&gt;
+beginning Pathfinder testing on the
+Icarus Boost upgrade. &lt;until 5.968&gt;
+The secondary boost augmentation to the
+L.E.A.F. suit should allow a Pathfinder to &lt;until 9.304&gt;
+jump twice in sequence through the air, increasing
+the height and distance of their leap drastically. &lt;until 15.574&gt;
+Report any defects to a commanding officer immediately. &lt;until 18.574&gt;</value>
+	</data>
+	<data name="valley_edwin_acorns_tw" xml:space="preserve">
+		<value>Note from Edwin Hall:
+
+I got 30 golden acorns, finally! I’ve been growing trees all afternoon to get them. I just need a 
+few more to complete exploration of this quadrant. 
+</value>
+	</data>
+	<data name="valley_edwin_virginia_tw" xml:space="preserve">
+		<value>Note from Edwin Hall:
+
+I have a great idea to sweep Virginia off her feet. I managed to steal a bottle of wine from the Kitchen.  
+I’m going to invite her out to the rooftops and watch the aurora. 
+
+I’m one hell of a romantic!
+</value>
+	</data>
+	<data name="valley_intercom_elevator_vo" xml:space="preserve">
+		<value>Reminder: You are approaching
+a high security area. &lt;until 3.792&gt;
+All Area 634 personnel must present
+proper identification badges upon entry. &lt;until 8.875&gt;
+Unauthorized personnel will
+be detained and questioned. &lt;until 12.300&gt;</value>
+	</data>
+	<data name="valley_memo_generator_tw" xml:space="preserve">
+		<value>Memo:
+In case of power shortage, please use amrita generators.
+</value>
+	</data>
+	<data name="valley_memo_wall_tw" xml:space="preserve">
+		<value>Caution:
+Monument wall unstable. Blunt force may cause collapse.
+</value>
+	</data>
+	<data name="valley_objective_returntitantree" xml:space="preserve">
+		<value>Return to explore the Titan Tree</value>
+	</data>
+	<data name="valley_pathfinder_acorns_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+Those acorn doors are pretty neat. Captain Hall ordered us to collect enough acorns to open all the 
+passageways in sector 3. I’m about halfway there.
+</value>
+	</data>
+	<data name="valley_pathfinder_soma_tw" xml:space="preserve">
+		<value>Note from a Pathfinder:
+
+Just my luck, first day on a training run and what do I run into? One of those Amrita Swarms they kept 
+on warning us about in the briefing. The darned thing nearly killed me! Thank goodness I had enough 
+energy to pacify the swarm. What on Earth made them so damn aggressive?
+</value>
+	</data>
+	<data name="valley_player_facility" xml:space="preserve">
+		<value>Must be atop that elevator shaft outside...</value>
+	</data>
+	<data name="valley_player_hole" xml:space="preserve">
+		<value>Could the Lifeseed be down there?</value>
+	</data>
+	<data name="valley_player_lifeseed" xml:space="preserve">
+		<value>So that tree produces a Lifeseed?</value>
+	</data>
+	<data name="valley_researcher_soma_tw" xml:space="preserve">
+		<value>Note from a researcher:
+
+The Amrita Swarms indigenous to the valley are incredibly aggressive. It’s advisable to maintain a 
+considerable distance between oneself and the swarm; otherwise it will send a wave of attack drones 
+towards the victim. Like a bee’s defense, the swarms will suicide themselves to protect the rest of the 
+cluster.
+</value>
+	</data>
+	<data name="valley_virginia_anthropology_tw" xml:space="preserve">
+		<value>M.1098.457.821
+
+Lifeseed Cradle
+
+Organic structure housing embryonic plant
+
+</value>
+	</data>
+	<data name="valley_virginia_doublejump_vo" xml:space="preserve">
+		<value>- &lt;until 0.140&gt;
+How did this civilization take hold so far north?
+The land here isn’t arable, &lt;until 6.103&gt;
+yet the population that lived here
+was clearly sedentary in nature. &lt;until 10.031&gt;
+This leads me to believe this place
+was used as a sacred ground. &lt;until 14.531&gt;
+Are these monuments to the mythical cannibal
+giants of native lore, the Si-teh-cah? &lt;until 20.521&gt;</value>
+	</data>
+	<data name="valley_virginia_floweroflife_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+The Flower of Life…such a familiar, reoccurring pattern found in most major religions. I shouldn’t be 
+surprised to find it here. Some believe it is the visual representation of life that runs through all organic 
+things, or even the composition of the universe as a whole. The Kabbalah’s Tree of Life is thought to be 
+derived from this pattern. I find it fascinating how such a symbol can be found across the globe, from 
+Syria to India, from the temple of Osiris to Westminster Abbey. It’s a much smaller world than we tend 
+to tell ourselves.
+</value>
+	</data>
+	<data name="valley_virginia_floweroflife_vo" xml:space="preserve">
+		<value>The Flower of Life… such a familiar, reoccurring
+pattern found in most major religions. &lt;until 7.913&gt;
+I shouldn’t be surprised to find it here. &lt;until 11.595&gt;
+Some believe it is the visual representation of life
+that runs through all organic things, or &lt;until 17.859&gt;
+even the composition of the universe as a whole. &lt;until 21.014&gt;
+The Kabbalah’s Tree of Life is thought to be
+derived from this pattern. &lt;until 25.823&gt;
+It’s fascinating how such a symbol
+can be found across the globe, from Syria to India, &lt;until 31.933&gt;
+from the temple of Osiris to Westminster Abbey. &lt;until 35.706&gt;
+It’s a much smaller world
+than we tend to tell ourselves. &lt;until 40.050&gt;</value>
+	</data>
+	<data name="valley_virginia_lifeseed_vo" xml:space="preserve">
+		<value>According to legend, the Lifeseed is said to be
+a bringer of death on a global scale, &lt;until 6.082&gt;
+splintering the Earth into fragments. Such end
+time scenarios are common across mythologies, &lt;until 13.241&gt;
+from the Apocalypse to Ragnarok. &lt;until 16.621&gt;
+However, it’s unusual for the event
+to surround a particular object- &lt;until 20.251&gt;
+especially one acquired by mortals. &lt;until 24.151&gt;</value>
+	</data>
+	<data name="valley_virginia_olmec_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+The origin of this valley’s ancient inhabitants continues to elude me. They seem to have coexisted with 
+the mysterious forest sprites. I find loose hints of Mesoamerican civilizations, such as the Olmec with 
+their renowned colossal head stone sculptures dating back to 900 BC. Strangely though, the Olmec 
+civilization was much younger and located no less than five thousand kilometers away from here.
+</value>
+	</data>
+	<data name="valley_virginia_olmec_vo" xml:space="preserve">
+		<value>The origin of this valley’s inhabitants
+continues to elude me. &lt;until 5.304&gt;
+They seem to have coexisted with
+the mysterious forest sprites. &lt;until 10.112&gt;
+I find loose hints of Mesoamerican civilizations,
+such as the Olmec with their renowned colossal &lt;until 16.640&gt;
+head stone sculptures dating back to 900 BC. 
+Strangely though, the Olmec civilization was &lt;until 24.012&gt;
+much younger and located no less than 
+five thousand kilometers away from here. &lt;until 29.192&gt;</value>
+	</data>
+	<data name="valley_virginia_orbs_vo" xml:space="preserve">
+		<value>Just what are these glowing orbs
+that everyone is making a fuss over? &lt;until 5.495&gt;
+They’re absolutely beautiful.
+They seem to grow randomly throughout the valley. &lt;until 11.155&gt;
+I know nothing about them, other
+than that they are indigenous to this valley &lt;until 14.450&gt;
+and the army is using their energy
+for their war project. &lt;until 18.169&gt;
+That’s about as much as they’ll tell me.
+It’s such a shame… &lt;until 23.760&gt;
+I wish they would just let them be. &lt;until 26.715&gt;
+But I suppose it’s the whole reason
+we’re here to begin with. &lt;until 31.095&gt;</value>
+	</data>
+	<data name="valley_virginia_plesiosaur_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+I couldn’t believe my eyes upon discovering a perfectly preserved Plesiosaur fossil here within the valley. 
+I wonder how it got here. How long as it been frozen in time, untouched by the outside world within this 
+cavern? With the presence of primal spears nearby, I could swear this creature was lured here to be hunted. 
+But there’s no way that’s even remotely possible! I wonder what other creatures once lurked within these 
+underwater caverns?</value>
+	</data>
+	<data name="valley_virginia_pyramid_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+While pyramids are common throughout Mesoamerica, I still couldn’t believe my eyes seeing one such 
+structure here in the valley. Thankfully the military had the decency to build one of their grotesque 
+facilities a few hundred meters away. Apparently the Pathfinders are seeking a way to get in by 
+gathering artifacts.
+</value>
+	</data>
+	<data name="valley_virginia_somaswarm_vo" xml:space="preserve">
+		<value>If there’s one thing I could do without 
+in this valley, it’s those damn Amrita Swarms &lt;until 5.438&gt;
+that seem to infect this place! They aren’t so 
+bad when they’re calm, &lt;until 10.235&gt;
+but when they’re starved of amrita energy, 
+they become incredibly aggressive, &lt;until 15.447&gt;
+sending waves of drones towards 
+intruders in suicidal attacks. &lt;until 20.728&gt;
+They seem to be becoming angrier 
+the longer we’re here. &lt;until 24.888&gt;</value>
+	</data>
+	<data name="valley_virginia_sprites_tw" xml:space="preserve">
+		<value>Note from Virginia King:
+
+My mother would tell me stories of daemons as ghostly and benevolent nature spirits. That name 
+seems fitting. It  will have to do for now until a zoologist can classify the forest sprites more 
+appropriately.
+</value>
+	</data>
+	<data name="valley_virginia_sprites_vo" xml:space="preserve">
+		<value>- &lt;until 0.250&gt;
+The playful little sprites of this valley,
+which I’ve come to call "daemons", are so lively. &lt;until 6.531&gt;
+I‘ve done my best to study their behaviors,
+but without a zoologist on site, &lt;until 11.217&gt;
+I’m mostly coming up dry. &lt;until 14.117&gt;
+They’re completely harmless so the army tends to
+ignore them as they go about their research. &lt;until 19.637&gt;
+ I wonder if the world would clamor
+to have these daemons as pets. &lt;until 24.028&gt;
+I’m sure my mother could use one… better than
+all those feral cats in her backyard anyways. &lt;until 30.528&gt;</value>
+	</data>
+	<data name="valley_virginia_sprites2_hw" xml:space="preserve">
+		<value>&lt;font&gt;jerry_b4s_handwriting&lt;/font&gt;&lt;size=0.25&gt;&lt;#000000&gt;What should I call them? My mother would tell me stories of daemons as ghostly and benevolent nature spirits. Yes, daemons. I suppose that will do until a zoologist can classify them more appropriately! &lt;/size&gt;&lt;/color&gt;   </value>
+	</data>
+	<data name="valley_virginia_susurrus_vo" xml:space="preserve">
+		<value>//Removed
+The army calls this valley Area 634: such a cold, mechanical name with no testament to the beauty of this place. In my research, I’ve ascribed my own word for it: Susurrus. The beauty of that word seems to rival the majesty of this place. It seems fitting given the calm and soothing nature of the breeze. Susurrus- I suppose that would make it’s ancient inhabitants officially known as ‘Susurrians!’. A little hard to pronounce…but isn’t that what makes it sound scientific?</value>
+	</data>
+	<data name="valley_virginia_titantree_tw" xml:space="preserve">
+		<value> Note from Virginia King:
+
+Sacred trees are common in mythologies around the world, typically acting as symbols of growth, 
+decay and resurrection. Some act as concepts, such as the world tree Yggdrasil of Norse mythology, 
+which provided a map for the composition of the universe, acting as a link between Heaven, Earth, 
+and the Underworld. But more recently in Christian belief, the tree of life represents the immaculate 
+state of humanity before its exposure to original sin causing its fall.
+</value>
+	</data>
+	<data name="valley_virginia_titantree_vo" xml:space="preserve">
+		<value>//removed
+Sacred trees are common in mythologies around the world, typically acting as symbols of growth, decay and resurrection. Some act as concepts, such as the world tree Yggdrasil of Norse mythology, which provided a map for the composition of the universe, acting as a link between Heaven, Earth, and the Underworld. But more recently in Christian belief, the tree of life represents the immaculate state of humanity before its exposure to original sin causing its fall. </value>
+	</data>
+	<data name="valley_virginia_titantree2_vo" xml:space="preserve">
+		<value>Given how rarely a Lifeseed is produced, I was so
+excited when I discovered there was one found &lt;until 5.559&gt;
+in the valley. Apparently the military was just 
+as excited, as they immediately confiscated it &lt;until 12.454&gt;
+to study in the Soma Facility on the mountaintop.
+They won’t let me anywhere near it. &lt;until 18.400&gt;</value>
+	</data>
+	<data name="valley_virginia_titantreename_vo" xml:space="preserve">
+		<value>It’s clear to me that the natives of the valley
+worshipped the giant tree here…almost as a deity. &lt;until 6.876&gt;
+Great lengths were taken to construct
+obelisks around this tree, &lt;until 11.200&gt;
+which the ancients used to help grow it. &lt;until 14.168&gt;
+I’ve begun to use the term ‘Titan Tree’
+to designate this species. &lt;until 19.258&gt;
+According to my interpretations,
+once every thousand years &lt;until 23.350&gt;
+the Titan Tree will produce
+the mythological and famed ‘Lifeseed’, &lt;until 27.963&gt;
+said to possess the power to shatter
+the world into fragments. &lt;until 32.492&gt;
+No wonder the military is
+so interested in this place! &lt;until 35.022&gt;</value>
+	</data>
+	<data name="xb_gamepad_confirm" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="xb_gamepad_disconnected" xml:space="preserve">
+		<value>Your controller appears to be disconnected.
+Please re-connect the controller or press 'A' on a connected controller.</value>
+	</data>
+	<data name="xb_gamepad_disconnected_title" xml:space="preserve">
+		<value>Controller Disconnected</value>
+	</data>
+	<data name="xb_user_change" xml:space="preserve">
+		<value>You will be returned to the title screen because a profile change has occurred. </value>
+	</data>
+	<data name="xb_user_change_confirm" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="xb_user_change_title" xml:space="preserve">
+		<value>Profile Change</value>
+	</data>
+	<data name="xbox_lostconnection_description" xml:space="preserve">
+		<value>You have lost yout connection to Xbox Live.
+You will not have access to Xbox Live services until re-connected.</value>
+	</data>
+	<data name="xbox_lostconnection_ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="xbox_lostconnection_title" xml:space="preserve">
+		<value>Disconnected</value>
+	</data>
+	<data name="xbox_presence_lvl1" xml:space="preserve">
+		<value>Playing Wendigo Lake</value>
+	</data>
+	<data name="xbox_presence_lvl2" xml:space="preserve">
+		<value>Playing Susurrus Valley</value>
+	</data>
+	<data name="xbox_presence_lvl3" xml:space="preserve">
+		<value>Playing Titan Rock</value>
+	</data>
+	<data name="xbox_presence_lvl4a" xml:space="preserve">
+		<value>Playing Soma Facility</value>
+	</data>
+	<data name="xbox_presence_lvl4b" xml:space="preserve">
+		<value>Playing Soma Reactor Core</value>
+	</data>
+	<data name="xbox_presence_lvl5" xml:space="preserve">
+		<value>Playing Camp Henday</value>
+	</data>
+	<data name="xbox_presence_lvl6" xml:space="preserve">
+		<value>Playing Proving Grounds</value>
+	</data>
+	<data name="xbox_presence_lvl7a" xml:space="preserve">
+		<value>Playing Smoke Lake</value>
+	</data>
+	<data name="xbox_presence_lvl7b" xml:space="preserve">
+		<value>Playing Astra Facility</value>
+	</data>
+	<data name="xbox_presence_menus" xml:space="preserve">
+		<value>In the Menus</value>
+	</data>
+</root>
